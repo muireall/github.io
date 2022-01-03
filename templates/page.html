@@ -1,0 +1,10 @@
+{% extends "zola-pickles/templates/page.html" %}
+
+{% block title -%}
+<title>{{page.title}} | {{config.title}}</title>
+<meta property="og:title" content="{{page.title}} | {{config.title}}" />
+<meta name="twitter:title" content="{{page.title}} | {{config.title}}" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:description" content="{{page.description}}" />
+
+{%- endblock title %}

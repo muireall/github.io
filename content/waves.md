@@ -1,6 +1,7 @@
 +++
 title = "Wave mechanics in periodic media"
 date = 2022-01-01
+description = "Comparisons between solid-state crystals and photonic crystals, from Photonic Crystals: Molding the Flow of Light"
 +++
 <!-- pedagogy, analogy, what's weird about quantum mechanics, steven g johnson -->
 [Photonic Crystals: Molding the Flow of Light](http://ab-initio.mit.edu/book/) is one of my favorite undergraduate-level textbooks. (PDF freely available.)
