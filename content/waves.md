@@ -84,7 +84,7 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
     <td>What is the physical energy of the system?</td>
     <td>The eigenvalue {% katex() %} E {% end %} of the Hamiltonian.</td>
     <td>The time-average electromagnetic energy: 
-    {% katex(block="true") %} U = \frac{1}{4} \int\!\!\!\mathrm{d}^3\!\mathbf{r}\; ɛ|\mathbf{E}|^2 + \mu_0 |\mathbf{H}|^2. {% end %}</td>
+    {% katex(block="true") %} U = \frac{1}{4} \int\!\!\!\mathrm{d}^3\!\mathbf{r}\; \varepsilon|\mathbf{E}|^2 + \mu_0 |\mathbf{H}|^2. {% end %}</td>
   </tr>
   <tr>
     <td>Is there a natural length scale to the system?</td>
