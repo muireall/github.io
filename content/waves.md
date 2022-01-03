@@ -43,7 +43,7 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
   <tr>
     <td>What is the "master equation" that determines the eigenstates of the system?</td>
     <td>The Schrödinger equation: {% katex(block=true) %} \begin{aligned}\left[ -\frac{\hbar}{2m} \nabla^2 + V(\mathbf{r})\right] &\Psi_E(\mathbf{r}) =\\ E &\Psi_E(\mathbf{r}).\end{aligned} {% end %}</td>
-    <td>The Maxwell equations: {% katex() %} \nabla~\times~\frac{1}{\varepsilon(\mathbf{r})} \nabla \times \mathbf{H}_\omega(\mathbf{r}) = \frac{\omega^2}{c^2} \mathbf{H}_\omega(\mathbf{r}). {% end %}</td>
+    <td>The Maxwell equations: {% katex(block=true) %}\begin{aligned} \nabla~\times~\frac{1}{\varepsilon(\mathbf{r})} \nabla \times &\mathbf{H}_\omega(\mathbf{r}) = \\ \frac{\omega^2}{c^2} &\mathbf{H}_\omega(\mathbf{r}). \end{aligned}{% end %}</td>
   </tr>
   <tr>
     <td>Are there any other conditions on the key function?</td>
@@ -72,7 +72,7 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
   </tr>
   <tr>
     <td>What is the variational theorem that is used to determine the normal modes and frequencies?</td>
-    <td>{% katex() %} E_\mathrm{var} = \frac{(\Psi, \hat{H}, \Psi)}{(\Psi, \Psi)}  {% end %} is minimized when Ψ is an eigenstate of <i>Ĥ</i>.</td>
+    <td>{% katex() %} E_\mathrm{var} = \frac{(\Psi, \hat{H}, \Psi)}{(\Psi, \Psi)} \textrm{ is minimized}\\ \textrm{when }\Psi\textrm{ is an eigenstate of }\hat{H}.{% end %}</td>
     <td>{% katex() %} U_\mathrm{var} = \frac{(\mathbf{H}, \hat{\Theta}, \mathbf{H})}{(\mathbf{H}, \mathbf{H})} \textrm{ is minimized}\\\textrm{when }\mathbf{H}\textrm{ is an eigenstate of }\hat{\Theta}. {% end %}</td>
   </tr>
   <tr>
