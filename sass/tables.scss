@@ -1,0 +1,35 @@
+.propTable {
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-size: 1.6rem;
+    }
+    
+    th,
+    td {
+        padding: 8px;
+        border: 0px solid #eee;
+    }
+    
+    th {
+        background-color: #f0f0f0;
+        font-weight: normal;
+    }
+
+    td:nth-child(1) {
+        background-color:#f0f0f0;
+        text-align: right;
+        vertical-align: top;
+    }
+    
+    th:nth-child(1) {
+        background-color:transparent;
+    }
+    
+    tr:nth-child(2n) {
+        background-color: #fafafa;
+        td:nth-child(1) {
+            background-color:#e6e6e6;
+        }
+    }
+}

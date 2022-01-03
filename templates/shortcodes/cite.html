@@ -1,0 +1,11 @@
+{{context | default(value="")}}<sup class="sidenote-widget"><a href="#ref{{nth}}" id="backref{{nth}}">{{nth}}</a></sup><div class="note">
+<p>
+  <a id="ref{{nth}}"></a>
+  <sup class="sidenote-widget">
+  {{nth}}
+  </sup> {{ref | markdown(inline=true) | safe}}
+  <a href="#backref{{ nth }}" class="sidenote-widget">
+  ⏎
+  </a>
+</p>
+</div>
