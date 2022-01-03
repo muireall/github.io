@@ -41,7 +41,7 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
   </tr>
   <tr>
     <td>What is the "master equation" that determines the eigenstates of the system?</td>
-    <td>The Schrödinger equation: {% katex() %} \begin{aligned}\left[ -\frac{\hbar}{2m} \nabla^2 + V(\mathbf{r})\right] &\Psi_E(\mathbf{r}) =\\ E &\Psi_E(\mathbf{r}).\end{aligned} {% end %}</td>
+    <td>The Schrödinger equation: {% katex(block=true) %} \begin{aligned}\left[ -\frac{\hbar}{2m} \nabla^2 + V(\mathbf{r})\right] &\Psi_E(\mathbf{r}) =\\ E &\Psi_E(\mathbf{r}).\end{aligned} {% end %}</td>
     <td>The Maxwell equations: {% katex() %} \nabla~\times~\frac{1}{\varepsilon(\mathbf{r})} \nabla \times \mathbf{H}_\omega(\mathbf{r}) = \frac{\omega^2}{c^2} \mathbf{H}_\omega(\mathbf{r}). {% end %}</td>
   </tr>
   <tr>
@@ -66,13 +66,13 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
   </tr>
   <tr>
     <td>What are the properties of the master equation that guarantee these properties of normal modes?</td>
-    <td>The Hamiltonian, {% katex() %} \hat{H}, {% end %} is a linear Hermitian operator.</td>
-    <td>The Maxwell operator, {% katex() %} \hat{\Theta}, {% end %} is a linear positive-semidefinite Hermitian operator.</td>
+    <td>The Hamiltonian, {% katex() %} \hat{H}\textrm{,} {% end %} is a linear Hermitian operator.</td>
+    <td>The Maxwell operator, {% katex() %} \hat{\Theta}\textrm{,} {% end %} is a linear positive-semidefinite Hermitian operator.</td>
   </tr>
   <tr>
     <td>What is the variational theorem that is used to determine the normal modes and frequencies?</td>
     <td>{% katex() %} E_\mathrm{var} = \frac{(\Psi, \hat{H}, \Psi)}{(\Psi, \Psi)}  {% end %} is minimized when Ψ is an eigenstate of <i>Ĥ</i>.</td>
-    <td>{% katex() %} U_\mathrm{var} = \frac{(\mathbf{H}, \hat{\Theta}, \mathbf{H})}{(\mathbf{H}, \mathbf{H})} \textrm{ is minimized}\\\textrm{when }\mathbf{H}\textrm{ is an eigenstate of }\hat{\Theta} {% end %}.</td>
+    <td>{% katex() %} U_\mathrm{var} = \frac{(\mathbf{H}, \hat{\Theta}, \mathbf{H})}{(\mathbf{H}, \mathbf{H})} \textrm{ is minimized}\\\textrm{when }\mathbf{H}\textrm{ is an eigenstate of }\hat{\Theta}. {% end %}</td>
   </tr>
   <tr>
     <td>What is the heuristic that goes along with the variational theorem?</td>
@@ -83,7 +83,7 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
     <td>What is the physical energy of the system?</td>
     <td>The eigenvalue {% katex() %} E {% end %} of the Hamiltonian.</td>
     <td>The time-average electromagnetic energy: 
-    {% katex(block="true") %} U = \frac{1}{4} \int\!\mathrm{d}^3\mathbf{r}\; ɛ|\mathbf{E}|^2 + \mu_0 |\mathbf{H}|^2. {% end %}</td>
+    {% katex(block="true") %} U = \frac{1}{4} \int\!\!\!\mathrm{d}^3\!\mathbf{r}\; ɛ|\mathbf{E}|^2 + \mu_0 |\mathbf{H}|^2. {% end %}</td>
   </tr>
   <tr>
     <td>Is there a natural length scale to the system?</td>
@@ -123,7 +123,7 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
   <tr>
     <td>What property characterizes a "gap" in the band structure?</td>
     <td>Within that range of energies, there are no propagating electron states, regardless of wave vector.</td>
-    <td>Within that range of frequencies, there are no propagating electromagnetic modes, regardless of wave vector or polarization.{% note() %} Gaps only for specific polarizations or propagation directions can be interesting, too, so sometimes you hear the special name "complete band gap" otherwise. {% end %}</td>
+    <td>Within that range of frequencies, there are no propagating electromagnetic modes, regardless of wave vector or polarization.{% note() %} Gaps only for specific polarizations or propagation directions are still interesting, so sometimes you hear the special name "complete band gap" for this case. {% end %}</td>
   </tr>
   <tr>
     <td>What are the terms for the bands that are immediately above and below a gap?</td>
