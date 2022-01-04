@@ -119,12 +119,12 @@ It therefore comes as no surprise that the study of quantum mechanics in a perio
   </a>
 </sup> of the band structure?</td>
     <td>The electron wave scatters coherently from the different potential regions.<sup class="sidenote-widget"><a href="#note1"">a</td>
-    <td>The electromagnetic fields scatter coherently at the interfaces between different dielectric regions.{% note() %} Maybe rather the origin "from a causal perspective"? {% end %} </td>
+    <td>The electromagnetic fields scatter coherently at the interfaces between different dielectric regions.{% note(thin=true) %} Maybe rather the origin "from a causal perspective"? {% end %} </td>
   </tr>
   <tr>
     <td>What property characterizes a "gap" in the band structure?</td>
     <td>Within that range of energies, there are no propagating electron states, regardless of wave vector.</td>
-    <td>Within that range of frequencies, there are no propagating electromagnetic modes, regardless of wave vector or polarization.{% note() %} Gaps only for specific polarizations or propagation directions are still interesting, so sometimes you hear the special name "complete band gap" for this case. {% end %}</td>
+    <td>Within that range of frequencies, there are no propagating electromagnetic modes, regardless of wave vector or polarization.{% note(thin=true) %} Gaps only for specific polarizations or propagation directions are still interesting, so sometimes you hear the special name "complete band gap" for this case. {% end %}</td>
   </tr>
   <tr>
     <td>What are the terms for the bands that are immediately above and below a gap?</td>

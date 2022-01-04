@@ -1,7 +1,7 @@
 <sup class="sidenote-widget"><a href="#note{{ nth }}" id="backnote{{ nth }}">&#{{((nth - 1) % 26) + 97}};
   </a>
 </sup>
-<span class="note">
+<span class="note" {% if thin %}style="height:0px"{% endif %}>
   <a id="note{{ nth }}"></a>
   <sup class="sidenote-widget">
     &#{{((nth - 1) % 26) + 97}};
