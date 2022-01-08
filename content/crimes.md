@@ -5,6 +5,7 @@ description = "It takes some care to test your model on synthetic data that's re
 +++
 
 Mathematician Rainer Kress [coined](https://scicomp.stackexchange.com/questions/28225/first-appearance-of-the-phrase-inverse-crime) a cute name for an insidious kind of triviality: {{cite(context="the inverse crime." ref="D. Colton and R. Kress, _Inverse Acoustic and Electromagnetic Scattering Theory_, 4th ed. Springer Nature, 2019, p. 179.")}}
+<!-- more -->
 
 His usage comes from the study of inverse scattering problems: if you shine light on an object, the light scatters off of it. If you measure the scattered light—the brightness when viewed from different angles—you can reconstruct the object (invert the scattering). The mathematical object that does this is your inverse solver.
 
