@@ -41,7 +41,7 @@ I remember that the energy of a resonator decays exponentially in time, so it sh
 ```julia
 using Optim
 using Zygote
-using Makie
+using GLMakie
 
 function power_transmission_spectrum(ω, # frequency
         ω_0, # resonant frequency
