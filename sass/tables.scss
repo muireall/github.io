@@ -12,12 +12,12 @@
     }
     
     th {
-        background-color: #f0f0f0;
+        background-color: #f0edea;
         font-weight: normal;
     }
 
     td:nth-child(1) {
-        background-color:#f0f0f0;
+        background-color:#f0edea;
         text-align: right;
         vertical-align: top;
     }
@@ -27,9 +27,9 @@
     }
     
     tr:nth-child(2n) {
-        background-color: #fafafa;
+        background-color: #faf6f3;
         td:nth-child(1) {
-            background-color:#e6e6e6;
+            background-color:#e6e3e0;
         }
     }
 }
