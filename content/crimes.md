@@ -77,11 +77,11 @@ julia> result.minimizer
  0.10094963595329196
  0.01968074906926952
  0.051693643609924414
-julia> fig, ax = scatter(ωs, data);
+julia> fig, ax = scatter(ωs, data, color=:darkblue);
 julia> ax.xlabel = "δω";
 julia> ax.ylabel = "Normalized transmitted power";
 julia> lines!(ωs, power_transmission_spectrum.(ωs,
-    result.minimizer...), color=:orchid4, linewidth=5);
+    result.minimizer...), color=:red, linewidth=5);
 julia> current_figure()
 ```
 {{ resize_image(path="crimes/crime_fit.png", width=1000, height=45, op="fit_width") }}
