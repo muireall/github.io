@@ -5,7 +5,7 @@ description = "A small scientific puzzle for you to test your sensemaking agains
 +++
 
 {{ resize_image(path="opponent/Figure+7.6+Color+Afterimage.jpg", width=1000, height=200, op="fit_width") }}
-{% aside() %} Tell me more about the normal, expected colors of the American flag. {% end %}
+{% aside() %} Ev'ry heart beats true 'neath the magenta white and blue. {% end %}
 
 Here's an innocuous scientific controversy. I've collected a number of these, imagining that maybe they could serve as practice material for making sense of ambiguity outside one's areas of expertise. I'm not sure it'll do any good, but it's worth a shot. I'll outline the issue below, and, if you like, you can try your hand at sorting it out.
 
