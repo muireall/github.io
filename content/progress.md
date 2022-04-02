@@ -19,11 +19,11 @@ These answers are meant to focus attention on where resources can be spent effic
 
 I'm skeptical we'll have much to show for further desultory, high-abstraction analyses in this mold. They seek to explain something so broad that any number of proposed factors are plausible contributors to a full explanation. Plausibility is sufficient to motivate more focused questions, and another skim of the top of one's head and some headline numbers won't rule out or single out any factor with actionable confidence.
 
-But it looks like fun, so, here we are.
+But it looks like fun, so, here we are.{% note() %} I try to be serious, nonjudgmental, and scrupulous with language in public. This post is a little lighter and may betray some distaste for its own genre. I hope you don't find it tendentious. {% end %}
 
 ## Why is progress slowing down?
 
-Before I get to my pet story, I'll try to catalogue some answers I've heard. These are overlapping, non-exhaustive, often tongue-in-cheek, and variously applicable to different strains of human endeavor with more or less rephrasing, notwithstanding the absurdity of treating them all on the same footing. I think all play some role, even the ones that contradict each other. If I mention merit, effort, aptitude, taste, progress, and so on as though they're well defined, objective, and quantifiable, those are figures of speech. Feel free to insert ", whatever that means" as necessary.
+Before I get to my pet story, I'll try to catalogue some answers I've heard. These are overlapping, non-exhaustive, often tongue-in-cheek, and variously applicable to different strains of human endeavor with more or less rephrasing, notwithstanding the absurdity of treating them all on the same footing. I think most answers play some role, even the ones that contradict each other. If I mention merit, effort, aptitude, taste, progress, and so on as though they're well defined, objective, and quantifiable, those are figures of speech. Feel free to insert ", whatever that means" as necessary.
 
 ### It is the way of things
 
@@ -34,12 +34,12 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 - The world is very big. There are hundreds of Shakespeares today, not to mention several contemporary with him. If not one, another would be just as acclaimed.
 - You<s> probably</s> haven't heard of them. Much is necessarily obscure, and there's no cultural mechanism that would bring the right obscurities to your attention.
 - You may or may not have heard of them, but acclaim is basically relative, so none stand out.
-- It was easier to be first or best in the past because there was less history and fewer people.
+- It was easier to be first or best in the past when there were fewer historical or contemporary competitors.
 - Great works can't distinguish themselves from the crowd on merit, so acclaimed works are optimized for proxies or marketed especially well.
 - (And if that's true, why bother?)
 
 ##### Cultural saturation
-- There's only so much bandwidth in a given layer of culture. Society can only support so many radio stations with so many broadcast hours. People only read either as much as they want to or as much as they have time for.
+- There's only so much bandwidth in a given layer of culture. Society can only support so many radio stations with so many broadcast hours. People already read about as much as their interest or time permits.
 - There's only so much cumulative attention to go around. There's hardly enough time for every paper to be read.
 - Critics can only be so vocal.
 
@@ -66,7 +66,7 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 ##### Better-than-silicon
 - Once we've invested deeply enough in one path, paths whose destinations may be vastly superior in principle are not worth the investment it would take to catch up.
 
-##### The long arm of Moore's law
+##### The long arm of Moore's law {% note() %} [Apologies to Cyrus Mody.](https://mitpress.mit.edu/books/long-arm-moores-law) {% end %}
 - Steady improvements to standard technologies outpace breakthrough technologies without consensus behind them, leaving breakthroughs to founder.
 
 ##### Inputs and outputs
@@ -93,12 +93,15 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 - Institutions suppress, censor, or subvert genius
 - Society taboos "individual excellence"
 - Society pedestalizes "individual excellence"
+
+##### Institutional inadequacy
 - We don't have enough monopolies
 - We don't have enough competition
 - We don't have enough private investment in R&D
 - We don't have enough startups
 - We don't have functional academic institutions
-    - Evaluation is broken (admissions, bibliometrics, peer review...)
+    - Evaluation is broken (admissions, bibliometrics, credentialism...)
+    - Publishing is broken (peer review, open access, few incentives for replications or null results...)
     - The career pipeline is broken (far more PhDs than positions, large sacrifices for uncertain prospects, leakage of tacit knowledge, deadweight loss of hostile environments, PIs' managerial ineptitude...)
 - We don't have functional government institutions (particularly for funding science)
     - Too slow, too little money, too reliant on brute cash, too top-down, too conservative, too focused on flashy megaprojects like colliders and manned spaceflight, regulatory dysfunction, intellectual-property-law dysfunction...
