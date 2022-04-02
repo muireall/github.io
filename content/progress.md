@@ -19,11 +19,11 @@ These answers are meant to focus attention on where resources can be spent effic
 
 I'm skeptical we'll have much to show for further desultory, high-abstraction analyses in this mold. They seek to explain something so broad that any number of proposed factors are plausible contributors to a full explanation. Plausibility is sufficient to motivate more focused questions, and another skim of the top of one's head and some headline numbers won't rule out or single out any factor with actionable confidence.
 
-But it looks like fun, so, here we are.{% note() %} I try to be serious, nonjudgmental, and scrupulous with language in public. This post is a little lighter and may betray some distaste for its own genre. I hope you don't find it tendentious. {% end %}
+But it looks like fun, so, here we are.{% aside() %} I try to be forthright and scrupulous with language in public. This post is a little lighter and may betray some distaste for its own genre. I hope you don't find it tendentious. {% end %}
 
 ## Why is progress slowing down?
 
-Before I get to my pet story, I'll try to catalogue some answers I've heard. These are overlapping, non-exhaustive, often tongue-in-cheek, and variously applicable to different strains of human endeavor with more or less rephrasing, notwithstanding the absurdity of treating them all on the same footing. I think most answers play some role, even the ones that contradict each other. If I mention merit, effort, aptitude, taste, progress, and so on as though they're well defined, objective, and quantifiable, those are figures of speech. Feel free to insert ", whatever that means" as necessary.
+Before I get to my pet story, I'll try to catalogue some answers I've heard. These are overlapping, non-exhaustive, often tongue-in-cheek, and variously applicable to different strains of human endeavor with more or less rephrasing, notwithstanding the absurdity of treating them all on the same footing. I think most answers have something to them, even the ones that contradict each other. If I mention merit, effort, aptitude, taste, progress, and so on as though they're well defined, objective, and quantifiable, those are figures of speech. Feel free to insert ", whatever that means" as necessary.
 
 ### It is the way of things
 
@@ -66,7 +66,8 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 ##### Better-than-silicon
 - Once we've invested deeply enough in one path, paths whose destinations may be vastly superior in principle are not worth the investment it would take to catch up.
 
-##### The long arm of Moore's law {% note() %} [Apologies to Cyrus Mody.](https://mitpress.mit.edu/books/long-arm-moores-law) {% end %}
+##### The long arm of Moore's law{% aside() %} [Apologies to Cyrus Mody.](https://mitpress.mit.edu/books/long-arm-moores-law) {% end %}
+
 - Steady improvements to standard technologies outpace breakthrough technologies without consensus behind them, leaving breakthroughs to founder.
 
 ##### Inputs and outputs
@@ -99,12 +100,13 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 - We don't have enough competition
 - We don't have enough private investment in R&D
 - We don't have enough startups
+- We lost whatever was special about Bell Labs (technical management, researcher freedom, serendipity by design, long-term thinking, monopoly profits)
 - We don't have functional academic institutions
     - Evaluation is broken (admissions, bibliometrics, credentialism...)
-    - Publishing is broken (peer review, open access, few incentives for replications or null results...)
-    - The career pipeline is broken (far more PhDs than positions, large sacrifices for uncertain prospects, leakage of tacit knowledge, deadweight loss of hostile environments, PIs' managerial ineptitude...)
+    - Publishing is broken (peer review, open access, incentives for replications and null results...)
+    - The career pipeline is broken (PhDs far exceeding positions, large sacrifices for uncertain prospects, leakage of tacit knowledge, deadweight loss of hostile environments, PIs' managerial ineptitude, poor support for younger scientists...)
 - We don't have functional government institutions (particularly for funding science)
-    - Too slow, too little money, too reliant on brute cash, too top-down, too conservative, too focused on flashy megaprojects like colliders and manned spaceflight, regulatory dysfunction, intellectual-property-law dysfunction...
+    - Too slow, too little money, too reliant on brute cash, too top-down, too conservative, too many strings attached, too focused on flashy megaprojects like colliders and manned spaceflight, regulatory dysfunction, intellectual-property-law dysfunction...
 
 ##### Distracted giants
 - The best minds of my generation are thinking about how to make people click ads. Culture-neutral or net-negative careers are more attractive than art and science.
@@ -144,18 +146,19 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 - People need to demarcate their community from others
 
 ##### This is good, actually
-- Sometimes, it's good or neutral that we don't elevate individuals or individual works
+- We already have [far more art than we can apprehend](https://www.gwern.net/Culture-is-not-about-Esthetics), so we're free not to worry so much about what's new
+- We already have more great art than we can appreciate, so we're free to instrumentalize new art
+- Sometimes, it's good that we don't elevate individuals or individual works
 - Sometimes, it's good that winner takes all, since only the best matters
 - It's good that credit is shared
-- It's good to make room beside "the work" for things like representation and personal character
+- It's good to make room beside "the work" for things like representation and personal character, particularly when value over replacement on "pure merit" is small in a crowded world
 - It's good to let the market decide
-- We already have [far more art than we can apprehend](https://www.gwern.net/Culture-is-not-about-Esthetics), so let's not worry so much about what's new
 
 I'm most interested at the moment in my fragment of a bullet under *It is the way of things*: "There's no cultural mechanism that would bring the right obscurities to your attention." Well, why shouldn't there be?
 
 ## Our culture does not elevate excellence in a scalable way
 
-Acclaim for people, discoveries, and cultural artifacts doesn't keep up in quantity or quality with the growth of our cultural base. The best are not elevated to proportional heights, and the merely excellent are everywhere among us.
+Acclaimed people, discoveries, and cultural artifacts don't keep up in quantity or quality with the growth of our cultural base. The best are not elevated to proportional heights, and the merely excellent are everywhere among us.
 
 This is not quite a restatement of the original concern that progress is slowing down. It sets aside slowed growth of the "cultural base" and refocuses on matters of attention, recognition, and acclaim, in some amorphous sense. It preempts "everything is fine, and the question is asked in ignorance" and positions ignorance as central to the problem. Global information networks have fallen short of their promise. Great art, discoveries, and human potential already languish in very ordinary situations; before we worry about producing more, we ask how we can build a culture that realizes its full richness.
 

@@ -5,7 +5,7 @@
 <a id="aside{{ nth }}"></a>
 <span class="sidenote-widget">
 ⁺
-</span> {{ body }}
+</span> {{ body | markdown(inline=true) | safe }}
 <a href="#backside{{ nth }}" class="sidenote-widget">
 ⏎
 </a>
