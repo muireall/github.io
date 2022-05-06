@@ -87,6 +87,7 @@ Before I get to my pet story, I'll try to catalogue some answers I've heard. The
 - Something happened. We don't make them like we used to. The sort of person in the past we point to no longer exists, or exists in smaller proportion.
 - A relatively small population monopolizes opportunity 
 - Children develop in an environment that's worse in relevant ways
+    - Recent generations grew up with contaminants like lead
     - [Aristocratic tutoring is now rare](https://erikhoel.substack.com/p/why-we-stopped-making-einsteins)
     - Students are segregated by age
     - (Any number of theories of education)
