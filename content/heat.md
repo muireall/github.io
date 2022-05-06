@@ -46,7 +46,7 @@ Moreover, the ratio is informative in ways that raw counts aren't.{% aside() %} 
 
 > It would have been more natural for the report to have presented separately the numbers of record highs and record lows, instead of their ratio, which, as we’ve seen, is rather contrived. But that would have looked something like the declining curves in Figure 5.4, making it difficult to offer increasing temperature extremes as evidence of a broken climate. I would be delighted if someone could explain how this misleading analysis was in the service of informing rather than persuading.{% note() %} p. 109 {% end %}
 
-Sure. Trends in record counts can come from trends in average temperature or from trends in temperature variance. This also means trends in counts can be masked by historically extreme periods, like the warm and high-variance 1930s, or analogously by the trajectory taken by a particular projection.
+Sure. Trends in record counts can come from trends in average temperature or from trends in temperature variance. Warming trends can be masked by historically extreme periods, like the warm and high-variance 1930s, or analogously by the trajectory taken by a particular projection.
 
 The current level of warming, not temperature variance, shows up in the ratio of record highs to record lows. In a stationary climate, the ratio is 1. As long as the climate is warming, it's greater than 1. The purpose of [the work you cite studying the ratio](https://pnas.org/doi/full/10.1073/pnas.1606117113) is to establish a relationship between the change in average temperature and this ratio—one that's independent of projected warming scenario and straightforwardly allows correction for model bias.
 
