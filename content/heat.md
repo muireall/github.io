@@ -57,13 +57,13 @@ The ratio still obscures that most of the change has been driven by less frequen
 
 This isn't a consequence of models being tweaked to match observations, but rather a very natural physical result. If we simplify as much as possible, [power radiated by a black body scales with temperature to the 4th power](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law). So [increasing an equilibrium temperature from 50 °C to 51 °C takes over twice the power of an increase from 0 °C to 1 °C, all else equal.](https://www.wolframalpha.com/input?i=%28353%5E3%29%2F%28273%5E3%29)
 
-Physical models still have some bias favoring record highs compared with observation, even accounting for the warm 1930s. {{ cite(context = "Increased maximum temperature also comes with increased cooling from evapotranspiration, depending on precipitation; these models have more precipitation than observed, enough so to account for the remaining bias.", ref = "[Meehl et al. (2016)](https://www.pnas.org/doi/full/10.1073/pnas.1606117113)" ) }}
+Physical models still have some bias favoring record highs compared with observation, even accounting for the warm 1930s. {{ cite(context = "Increased maximum temperature also comes with increased cooling from evapotranspiration, depending on precipitation; these models have less precipitation than observed, enough so to account for the remaining bias.", ref = "[Meehl et al. (2016)](https://www.pnas.org/doi/full/10.1073/pnas.1606117113)" ) }}
 
 Unfortunately, this doesn't mean that global warming just means milder winter nights. Even if hot days warm less than cold nights, the difference is most pronounced for these record-breaking single-day extremes. There's plenty of room for heat waves beyond what life in a region has adapted to.
 
 ## Extreme heat is still getting worse
 
-Koonin ends the chapter:
+Koonin ends the chapter:{% note() %} p. 110 {% end %}
 
 > In short, I would summarize the data on extreme temperatures with the
 following statement. It has far less headline potential than that from the
@@ -72,7 +72,7 @@ being correct:
 
 > > *There have been some changes in temperature extremes across the contiguous United States. The annual number of high temperature records set shows no significant trend over the past century nor over the past forty years, but the annual number of record cold nights has declined since 1895, somewhat more rapidly in the past thirty years.*
 
-> Of course, temperatures getting milder in this way (fewer harsh winters and cold evenings) makes for a very different (and less alarming) story than torrid summers and blazing afternoons becoming more common. As it happens, the evidence of a rise in the coldest temperatures is perfectly consistent with a warming globe—just not a “roasting” one that lends itself to graphics of bursting thermometers.{% note() %} p. 110 {% end %}
+> Of course, temperatures getting milder in this way (fewer harsh winters and cold evenings) makes for a very different (and less alarming) story than torrid summers and blazing afternoons becoming more common. As it happens, the evidence of a rise in the coldest temperatures is perfectly consistent with a warming globe—just not a “roasting” one that lends itself to graphics of bursting thermometers.
 
 While his restatement is, as far as I can see, more strictly correct than many headlines, his intimation that temperature trends are due to milder winter nights is itself misleading. [The report he's criticizing](https://science2017.globalchange.gov/chapter/6/) discusses several lines of evidence, and it's hard not to conclude that we should expect (and are already experiencing) more extreme heat.
 
