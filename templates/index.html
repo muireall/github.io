@@ -12,3 +12,13 @@
 <link href="{{ get_url(path="fontawesome/brands.css") }}" rel="stylesheet">
 <link href="{{ get_url(path="fontawesome/solid.css") }}" rel="stylesheet">
 {%- endblock css %}
+{% block footer -%}
+<p class="p-copyright">
+    {% if config.extra.copyright -%}
+    {% set content = config.extra.copyright | markdown(inline=true) %}
+    {{ content | safe }}
+    {%- endif %}
+</p>
+    <p style="text-align:center"><a href="https://twitter.com/MuireallPrase" rel="me">Twitter</a>
+    ☙  <a href="mailto:muireall.prase@protonmail.com" rel="me">Email</a>  ❧ <a href="https://github.com/muireall" rel="me">GitHub</a></p>
+{%- endblock footer %}
