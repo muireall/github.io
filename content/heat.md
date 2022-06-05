@@ -24,7 +24,7 @@ Here's the same data, presented by Koonin, using absolute counts:
 
 {{ resize_image(path="heat/Koonin_figure5_5.png", width=1000, height=450, op="fit_width", alt="Number of absolute record US daily temperature extremes from 1895 to 2018. Record highs remain roughly constant in recent years, while record lows have become less common.") }}
 
-## Why use running records?
+### Why use running records?
 
 Given no warming trend, the "running" method produces counts that decrease as the inverse of the number of observations. The closer you are to the beginning of data collection, the easier it is to set a record. The "absolute" method yields counts uniformly distributed in time in the same scenario.
 
@@ -42,7 +42,7 @@ I agree that the visual is easily misinterpreted, but it's not the case that the
 
 Moreover, the ratio is informative in ways that raw counts aren't.{% aside() %} This why I call the chapter a nitpick at worst—the ratio is specifically informative. {% end %}
 
-## Why use the ratio?
+### Why use the ratio?
 
 > It would have been more natural for the report to have presented separately the numbers of record highs and record lows, instead of their ratio, which, as we’ve seen, is rather contrived. But that would have looked something like the declining curves in Figure 5.4, making it difficult to offer increasing temperature extremes as evidence of a broken climate. I would be delighted if someone could explain how this misleading analysis was in the service of informing rather than persuading.{% note() %} p. 109 {% end %}
 
@@ -52,7 +52,7 @@ The current level of warming, not temperature variance, shows up in the ratio of
 
 I agree that the CSSR is wrong to write that "the number of record lows has been declining since the late-1970s while the number of record highs has been rising" with reference to that work, which does not support the latter claim. Your complaint that "the Executive Summary of the CSSR prominently features the faulty ratio graph (our Figure 5.1) with the legend 'Record warm daily temperatures are occurring more often'" [appears to have been addressed in the version currently online](https://science2017.globalchange.gov/chapter/executive-summary/). I have no objection to their use of "increasing temperature extremes" to include heat waves.
 
-## Cool nights warm faster than hot days
+### Cool nights warm faster than hot days
 The ratio still obscures that most of the change has been driven by less frequent record lows. Here I should point out that [climate models, including those used in this report, do predict minimum temperatures go up faster than maximum temperatures](https://science2017.globalchange.gov/chapter/6/). Koonin doesn't contradict this, but he also doesn't go out of his way to mention it.
 
 This isn't a consequence of models being tweaked to match observations, but rather a very natural physical result. If we simplify as much as possible, [power radiated by a black body scales with temperature to the 4th power](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law). So [increasing an equilibrium temperature from 50 °C to 51 °C takes over twice the power of an increase from 0 °C to 1 °C, all else equal.](https://www.wolframalpha.com/input?i=%28353%5E3%29%2F%28273%5E3%29)
@@ -61,7 +61,7 @@ Physical models still have some bias favoring record highs compared with observa
 
 Unfortunately, this doesn't mean that global warming just means milder winter nights. Even if hot days warm less than cold nights, the difference is most pronounced for these record-breaking single-day extremes. There's plenty of room for heat waves beyond what life in a region has adapted to.
 
-## Extreme heat is still getting worse
+### Extreme heat is still getting worse
 
 Koonin ends the chapter:{% note() %} p. 110 {% end %}
 
@@ -78,7 +78,7 @@ While his restatement is, as far as I can see, more strictly correct than many h
 
 Maybe the most obvious next line is looking at heat waves rather than record highs. While there are still threshold effects complicating the expected response of heat waves to warming, they're found to be increasing in length, intensity, and frequency in most regions.
 
-## Now tell us how you really feel
+### Now tell us how you really feel
 
 Sorry, I've only skimmed the rest of *Unsettled*. Overall, I'm not impressed, but it's closer to the scientific consensus than many (most?) people get. If someone's excessively skeptical or despairing, it may be better than nothing. Popular communication around climate is in a disappointing state. Koonin's not wrong that accurately relaying the IPCC reports can make you sound like a climate skeptic.
 
