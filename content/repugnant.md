@@ -37,3 +37,75 @@ Actually, it's worse than that. Say our future civilization's advanced cyberneur
 But if contemporary welfare trades off against productivity and further existential risk reduction, they'll keep putting off prioritizing welfare indefinitely—until they meet ruin.{% note() %} Or, perhaps, now your weight on the longterm future reduces to your confidence that they correctly, collectively implement something like the [Kelly criterion](https://en.wikipedia.org/wiki/Kelly_criterion) and balance how much present welfare they stake and how much they bank. But remember, we're betting in pure (not log) utility, which Kelly doesn't maximize. {% end %}
 
 A more sophisticated argument is that only once the "eschatological bound" is close enough will a surviving civilization enter the "value realization" stage, but that's much further in the future than the epoch available to our present exponentially decaying expected utility envelope.
+
+More technically, what I'm suggesting is to treat evaluating the longterm future as a control problem, where at any time you're choosing between "realizing" some present value and "securing" future value. Say the realizable value at any time {% katex() %} t {% end %} is {% katex() %} u_0 \times (s \cdot t)^3,{% end %} where {% katex() %} s {% end %} is civilization's expansion speed and {% katex() %} u_0 {% end %} is the value per unit civilization volume per unit time in "realizing" mode. Alternatively, you can decline that present value and instead reduce the background existential risk per unit time from {% katex() %} r_0 {% end %} to {% katex() %} r_0 - dr.{% end %}{% note() %} In this scenario the utility cost to eliminate a fixed risk grows with the civilization size, as though risk is reduced by uniform policing. {% end %}
+
+You can solve this as a Hamilton-Jacobi-Bellman equation by integrating backwards from the eschatological bound (or any sufficiently far-future time). More casually, you can see that the present value approaches {% katex() %} u_0 \times (s \cdot t^3)/r_0 {% end %} in the medium term.
+As long as the present value is larger than that, you win by securing value until the instantaneously realizable value catches up, and then you start realizing value.
+
+Here's an example (code below):
+
+{{ resize_image(path="repugnant/ruin.png", width=1000, height=450, op="fit_width", alt="A plot of expected, realizable, and realized value over time in the scenario described above.") }}
+
+```julia
+using QuadGK
+using CairoMakie
+using OrdinaryDiffEq
+
+function bellman_solve(s, r_0, dr)
+    t_f = 10*1/r_0 #
+    v_f = (s*t_f)^3
+    # minus sign for backwards integration
+    dvdt(v, p, t) = -((s*(t_f - t))^3 > dr * v ?
+        (r_0 * v -(s*(t_f - t))^3) : # realizing (st)^3 dt
+        ((r_0 - dr)*v)) # or reducing risk by dr
+    tspan = (0.0, t_f)
+    prob = ODEProblem(dvdt, v_f, tspan)
+    sol = solve(prob, Tsit5(), reltol=1e-12, abstol=1e-12)
+
+    return sol
+end
+
+function make_plot()
+    s = 0.1 # Expansion speed
+    r_0 = 2e-4 # Baseline risk
+    dr = 1e-6 # Change in risk when "securing"
+
+    sol = bellman_solve(s, r_0, dr)
+
+    f = Figure(backgroundcolor=:transparent)
+    ax1 = Axis(f[1, 1],
+        yscale = log10,
+        ylabel = "Value (a.u.)",
+        xlabel = "t (a.u.)",
+        backgroundcolor=:transparent)
+    ax2 = Axis(f[1, 1],
+        yaxisposition = :right,
+        yticklabelcolor = :darkorchid4,
+        ylabelcolor = :darkorchid4,
+        ylabel = "Probability of surviving to t",
+        backgroundcolor=:transparent)
+    hidespines!(ax2)
+    hidexdecorations!(ax2)
+
+    t_forward = maximum(sol.t) .- sol.t
+
+    realizing = (0.1*(t_forward)).^3 .> (r_0 - dr) * sol.u
+    t_r =t_forward[findlast(realizing)]
+
+    dr_p = dr * (!).(realizing)
+
+    realized = max.(0, 1/4 * s^3 * ((sol.t).^4 .- t_r^4))
+
+    lines!(ax1, maximum(sol.t) .- sol.t, sol.u,
+        label = "Expected")
+    lines!(ax1, sol.t, 1 .+ (0.1*sol.t).^3 / 2e-4
+         label = "Realizable")
+    lines!(ax1, sol.t, 1 .+ realized,
+        label = "Realized")
+    lines!(ax2, sol.t, exp.(-((r_0 .- dr_p) .* sol.t)),
+        color = :darkorchid4)
+    axislegend(ax1, position = :lb)
+    save("ruin.png", f)
+end
+```
