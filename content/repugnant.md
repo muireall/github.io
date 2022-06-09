@@ -40,12 +40,14 @@ A more sophisticated argument is that only once the "eschatological bound" is cl
 
 More technically, what I'm suggesting is to treat evaluating the longterm future as a control problem, where at any time you're choosing between "realizing" some present value and "securing" future value. Say the realizable value at any time {% katex() %} t {% end %} is {% katex() %} u_0 \times (s \cdot t)^3,{% end %} where {% katex() %} s {% end %} is civilization's expansion speed and {% katex() %} u_0 {% end %} is the value per unit civilization volume per unit time in "realizing" mode. Alternatively, you can decline that present value and instead reduce the background existential risk per unit time from {% katex() %} r_0 {% end %} to {% katex() %} r_0 - dr.{% end %}{% note() %} In this scenario the utility cost to eliminate a fixed risk grows with the civilization size, as though risk is reduced by uniform policing. {% end %}
 
-You can solve this as a Hamilton-Jacobi-Bellman equation by integrating backwards from the eschatological bound (or any sufficiently far-future time). More casually, you can see that the present value approaches {% katex() %} u_0 \times (s \cdot t^3)/r_0 {% end %} in the medium term.
-As long as the present value is larger than that, you win by securing value until the instantaneously realizable value catches up, and then you start realizing value.
+You can solve this as a Hamilton-Jacobi-Bellman equation by integrating backwards from the eschatological bound (or any sufficiently far-future time). More casually, you can see that the present expected value approaches {% katex() %} u_0 \times (s \cdot t^3)/r_0 {% end %} in the medium term.
+As long as the present expected value is larger than that, you win by securing value until the instantaneously realizable value catches up, and then you start realizing value.
 
-Here's an example (code below):
+Here's an example (code at the bottom):
 
 {{ resize_image(path="repugnant/ruin.png", width=1000, height=450, op="fit_width", alt="A plot of expected, realizable, and realized value over time in the scenario described above.") }}
+
+The initial expected value is in fact astronomical, but we've maximized it at the cost of back-loading the actual realization of value. By the time it makes sense to enter the "realization" stage, we're almost certainly already extinct.
 
 ```julia
 using CairoMakie
@@ -108,3 +110,4 @@ function make_plot()
     save("ruin.png", f)
 end
 ```
+
