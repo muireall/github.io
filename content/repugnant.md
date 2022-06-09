@@ -48,7 +48,6 @@ Here's an example (code below):
 {{ resize_image(path="repugnant/ruin.png", width=1000, height=450, op="fit_width", alt="A plot of expected, realizable, and realized value over time in the scenario described above.") }}
 
 ```julia
-using QuadGK
 using CairoMakie
 using OrdinaryDiffEq
 
