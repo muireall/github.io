@@ -47,7 +47,7 @@ Here's an example (code at the bottom):
 
 {{ resize_image(path="repugnant/ruin.png", width=1000, height=450, op="fit_width", alt="A plot of expected, realizable, and realized value over time in the scenario described above.") }}
 
-The initial expected value is in fact astronomical, but we've maximized it at the cost of back-loading the actual realization of value. By the time it makes sense to enter the "realization" stage, we're almost certainly already extinct.
+The initial expected value is in fact astronomical, but we've maximized it at the cost of back-loading the actual realization of value. By the time it makes sense to enter the "realization" stage, we're very likely already extinct.{% aside() %} The original version of this plot and code had a bug that made it wait too long, making my point look stronger than it was. {% end %}
 
 ```julia
 using CairoMakie
@@ -70,7 +70,7 @@ end
 function make_plot()
     s = 0.1 # Expansion speed
     r_0 = 2e-4 # Baseline risk
-    dr = 1e-6 # Change in risk when "securing"
+    dr = 1e-4 # Change in risk when "securing"
 
     sol = bellman_solve(s, r_0, dr)
 
@@ -90,24 +90,26 @@ function make_plot()
     hidexdecorations!(ax2)
 
     t_forward = maximum(sol.t) .- sol.t
-
-    realizing = (0.1*(t_forward)).^3 .> (r_0 - dr) * sol.u
+    realizing = ((s*t_forward).^3 .> dr * sol.u)
     t_r =t_forward[findlast(realizing)]
+    securing = (!).(realizing)
 
-    dr_p = dr * (!).(realizing)
+    p_alive = exp.(-(r_0 .- dr) .* t_forward) .* securing .+ 
+        exp(-(r_0 - dr) * t_r) *
+            exp.(-r_0 * (t_forward .- t_r)) .* realizing
 
-    realized = max.(0, 1/4 * s^3 * ((sol.t).^4 .- t_r^4))
+    realized = max.(0, 1/4 * s^3 * ((t_forward).^4 .- t_r^4))
 
     lines!(ax1, maximum(sol.t) .- sol.t, sol.u,
         label = "Expected")
-    lines!(ax1, sol.t, 1 .+ (0.1*sol.t).^3 / 2e-4
-         label = "Realizable")
-    lines!(ax1, sol.t, 1 .+ realized,
+    lines!(ax1, sol.t, 1 .+ (s*sol.t).^3 / dr,
+        label = "Realizable")
+    lines!(ax1, t_forward, 1 .+ realized,
         label = "Realized")
-    lines!(ax2, sol.t, exp.(-((r_0 .- dr_p) .* sol.t)),
+    lines!(ax2, t_forward, p_alive,
         color = :darkorchid4)
     axislegend(ax1, position = :lb)
-    save("ruin.png", f)
+    save("p.png", f)
 end
 ```
 

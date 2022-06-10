@@ -109,7 +109,7 @@ To do this, we had best understand where the approximation comes from.{% note() 
 \left\lvert\frac{\alpha_\text{out}}{\alpha_\text{in}}\right\rvert^2 &\approx \frac{r^2 + a^2 - 2ra\cos φ}{1 + (ra)^2 - 2ra\cos φ}
 \end{align}
 {% end %}
-We've already made a couple assumptions: that {% katex() %} k^2 = 1 - r^2 {% end %} (there's no loss in the coupler), and that {% katex() %} (a-1)(1-r^2) \ll a .{% end %} We might use either Eqn. 1 or 2 to generate synthetic data.
+We've already made a couple assumptions: that {% katex() %} k^2 = 1 - r^2 {% end %} (there's no loss in the coupler), and that {% katex() %} (1-a)(1-r^2) \ll a .{% end %} We might use either Eqn. 1 or 2 to generate synthetic data.
 
 ###### Technical note: How do you get to the Lorentzian?
 
