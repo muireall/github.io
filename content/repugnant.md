@@ -47,7 +47,7 @@ Here's an example (code at the bottom):
 
 {{ resize_image(path="repugnant/ruin.png", width=1000, height=450, op="fit_width", alt="A plot of expected, realizable, and realized value over time in the scenario described above.") }}
 
-The initial expected value is in fact astronomical, but we've maximized it at the cost of back-loading the actual realization of value. By the time it makes sense to enter the "realization" stage, we're very likely already extinct.{% aside() %} The original version of this plot and code had a bug that made it wait too long, making my point look stronger than it was ("almost certainly extinct"). {% end %}
+The initial expected value is in fact astronomical, but we've maximized it at the cost of back-loading the actual realization of value. By the time it makes sense to enter the "realization" stage, we're very likely already extinct.{% aside() %} The original version of this plot and code had a bug that made it wait too long, making my point look stronger than it was ("almost certainly extinct") for this choice of model and parameters. {% end %}
 
 This isn't strictly a problem—it's successful expected utility maximization. There might be an appeal to intuition against expected utility maximization along these lines, although that's not quite what I'm aiming for. I just think we might expect welfare to be driven down, perhaps below "neutral", perhaps for a very long time, perhaps with a low chance of reaching payoff, by a maximizer.
 
