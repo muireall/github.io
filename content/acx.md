@@ -140,7 +140,7 @@ If I had to guess, there's [his 2016 review](https://web.archive.org/web/2020042
 
 > (Yes, gene-culture coevolution is a thing, but I’m not denying the genetic half of it and I’m not sure if you’re denying the cultural half.)
 
-Fair enough, I suppose, although in the review text he mentions the role of genetics only once, as an ambient "reasonable speculation" for some aspects of "deep culture".{% note() %} Plus a speculation in the conclusion, maybe again tongue in cheek, about genetic engineering as a solution to American cultural deadlock.
+Fair enough, I suppose, although in the review text he mentions the role of genetics only once, as an ambient "reasonable speculation" for some aspects of "deep culture".{% note() %} Plus a speculation in the conclusion, maybe again tongue in cheek, about genetic engineering as a solution to American cultural deadlock. (August 2022 addendum: Well, [it sounds less like a joke every time](https://astralcodexten.substack.com/p/slightly-against-underpopulation)—"Like, a 2.5 point decline in IQ could be pretty bad. But if we can’t genetic engineer superbabies with arbitrary IQs by 2100, we have failed so overwhelmingly as a civilization that we deserve whatever kind of terrible discourse our idiot grandchildren inflict on us.")
  {% end %}
 ###### Whither Tartaria?
 
@@ -195,7 +195,7 @@ This sensitivity is the thesis of *Hive Mind* by Garett Jones, and the link is t
 
 > Overall, I thought this book showcased some really neat results, had some good economics in it, and was very readable, but I didn't come out of it feeling like its thesis was very proven.
 
-Alexander avoids embracing the thesis in his review and doesn't touch questions of race or eugenics{% note() %} although he does throw in a pair of links to early HBD blogger "La Griffe du Lion" {% end %}, but the commenters (including, prominently, Steve Sailer) are predictably less shy.
+Alexander avoids embracing the thesis in his review and doesn't touch questions of race or eugenics,{% note() %}although he does throw in a pair of links to early HBD blogger "La Griffe du Lion"{% end %} but the commenters (including, prominently, Steve Sailer) are predictably less shy.
 
 It's plausible that Alexander gained confidence in *Hive Mind* in the seven ensuing years but has not made the time to update his evaluation. It's also consistent with a strategy of spreading "the good parts of Reactionary thought" without staking his own credibility on it.
 
