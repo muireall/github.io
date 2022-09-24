@@ -24,7 +24,3 @@ We might expect a given pathogen to be less likely to end larger civilizations. 
 In general, as the world grows, more things can happen. It's not hard to imagine combinatorial growth in the number of "possible next centuries" as you add more people. Can we keep up and keep risk constant? What does it cost?
 
 In my example from [my previous post](../repugnant) I used a cost to eliminate a fixed risk (in percentage points per unit time) that grew in proportion to the population, calling this "uniform policing". But we really need increasingly strict policing to keep the overall risk constant. For some risks, and in particular those that will come to dominate in large worlds, one needs to multiply by another factor proportional to population (escaped-pathogen-like risk), that factor squared (war-like risk), or even an exponential or factorial in population (risk from dark corners of the full combinatorial space of events).
-
-Anyway, here's the model from that post, but with risk that grows with the population that can be halved at a constant cost per person. Again, the optimal policy is to defer realizing value until near the end of time, but here we defer considerably longer and have a lower probability of being alive when we start realizing value.
-
-{{ resize_image(path="bigworlds/bigworld_ruin.png", width=1000, height=450, op="fit_width", alt="A plot of expected, realizable, and realized value over time in the scenario described above.") }}
