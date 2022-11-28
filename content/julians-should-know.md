@@ -30,7 +30,7 @@ For example, I'll call out the [collections and data structures](https://docs.ju
 
 Similarly, there are [mathematical operators](https://docs.julialang.org/en/v1/base/math/) in base Julia it's worth knowing exist: `mod2pi` and `rem2pi` and the functions `sincos`, `cis`, `sinpi`, `sind`, and so on for trigonometry saving some effort and numerical exactness; similarly, `expm1` and  `log1p`; `hypot` and `LinearAlgebra.norm` for vector norm calculations avoiding overflow and underflow; various other utilities like `clamp` and  `mod1`.
 
-The manual's [noteworthy differences from other languages](https://docs.julialang.org/en/v1/manual/noteworthy-differences/) mentions an nice assortment of features and conventions even if you're not coming from MATLAB, R, Python, C/C++, or Common Lisp.
+The manual's [noteworthy differences from other languages](https://docs.julialang.org/en/v1/manual/noteworthy-differences/) mentions a wide assortment of features and conventions even if you're not coming from MATLAB, R, Python, C/C++, or Common Lisp.
 
 Stefan Karpinski's 2019 talk [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/watch?v=kc9HwsxE1OY) is great if you want to understand why some people like Julia so much, along with some of the choices Julia makes as a language.{% note() %} I don't know if it belongs in the canon, but my favorite JuliaCon talk may be [Taking Vector Transposes Seriously](https://www.youtube.com/watch?v=C2RO34b_oPM) from Jiahao Chen in 2017. It's about Julia pre-1.0, so be careful—for example, these days the single quote gives you the adjoint, not the transpose. {% end %}
 
@@ -64,12 +64,12 @@ Some of the above are taken from the October 2022 thread ["Packages all Julians 
 
 - [Documenter](https://documenter.juliadocs.org/stable/) is what people use to make documentation, and it has some good features like doctests and cross references worth getting familiar with
 - [Literate.jl](https://fredrikekre.github.io/Literate.jl/v2/) is a package for [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming) that lets you generate markdown for Documenter or a Jupyter notebook from the same source file
-- [Plots.jl](https://github.com/JuliaPlots/Plots.jl) with your backend of choice is fine, but [Makie](https://docs.makie.org/stable/) is also really nice, especially for interactivity{% note() %} although Plots.jl does have [the PlotlyJS backend](http://juliaplots.org/PlotlyJS.jl/stable/) {% end %} and performance (with an OpenGL backend)—[Beautiful Makie](https://beautiful.makie.org/dev/) has nice examples
+- [Plots.jl](https://github.com/JuliaPlots/Plots.jl) with your backend of choice is fine, but I'd recommend looking at [Makie](https://docs.makie.org/stable/), especially for interactivity{% note() %} although Plots.jl does have [the PlotlyJS backend](http://juliaplots.org/PlotlyJS.jl/stable/) {% end %} and performance (with an OpenGL backend)—[Beautiful Makie](https://beautiful.makie.org/dev/) has good examples
 - [DataStructures.jl](https://github.com/JuliaCollections/DataStructures.jl) implements standard data structures
-- [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl) implements pandas-like DataFrames—don't miss the nice [tutorial by Bogumił Kamiński](https://github.com/bkamins/Julia-DataFrames-Tutorial) 
+- [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl) implements pandas-like DataFrames—don't miss the [tutorial by Bogumił Kamiński](https://github.com/bkamins/Julia-DataFrames-Tutorial) 
 - [Memoize.jl](https://github.com/JuliaCollections/Memoize.jl) gives you easy memoization (there's also [Memoization.jl](https://github.com/marius311/Memoization.jl), which at this point may be more general than Memoize)
-- [MacroTools.jl](https://github.com/FluxML/MacroTools.jl) is nice if you're writing macros
-- [Transducers.jl](https://juliafolds.github.io/Transducers.jl/dev) gives you transducers, which you might know [from Clojure](https://clojure.org/reference/transducers){% note() %} [this description of good use cases for transducers](https://clojure.org/guides/faq#transducers_vs_seqs) is nice to have in the back of your head {% end %}
+- [MacroTools.jl](https://github.com/FluxML/MacroTools.jl) is handy if you're writing macros
+- [Transducers.jl](https://juliafolds.github.io/Transducers.jl/dev) gives you transducers, which you might know [from Clojure](https://clojure.org/reference/transducers){% note() %} [this description of good use cases for transducers](https://clojure.org/guides/faq#transducers_vs_seqs) is good to have in the back of your head {% end %}
 - The packages under the [JuliaMath](https://github.com/JuliaMath) GitHub Organization include special functions, intervals, interpolations, root finding, and numerical integration, among others
 - [JuliaDiff](https://juliadiff.org/) has various automatic differentiation packages under its umbrella
 
@@ -84,7 +84,7 @@ Start with [Unit Testing](https://docs.julialang.org/en/v1/stdlib/Test/) and the
 - [Infiltrator](https://github.com/JuliaDebug/Infiltrator.jl) gives you a macro that acts as a breakpoint
 - [StaticArrays](https://github.com/JuliaArrays/StaticArrays.jl); [torrance](https://discourse.julialang.org/t/packages-all-julians-should-know-about/88099/16) on the Discourse thread explains it well:
     > This package allows for small, statically sized arrays. Because their size is known at compile time all sorts of optimisations and efficiencies kick in. Linear algebra operations, for example, are customised at compile time for the specific size of your matrix or array. For me, however, the biggest win is that static arrays are isbits, meaning these will be allocated on the stack not the heap, so these are ideal for cases where you’re working with small arrays of a known size in hot loops.
-- [Tullio](https://github.com/mcabbott/Tullio.jl) is a nice way to write tensor operations that will take advantage of multithreading, SIMD (with [LoopVectorization](https://github.com/JuliaSIMD/LoopVectorization.jl)), and other tricks to go fast
+- [Tullio](https://github.com/mcabbott/Tullio.jl) is a neat way to write tensor operations that will take advantage of multithreading, SIMD (with [LoopVectorization](https://github.com/JuliaSIMD/LoopVectorization.jl)), and other tricks to go fast
 - [JET](https://aviatesk.github.io/JET.jl/stable/) and [Cthulhu](https://github.com/JuliaDebug/Cthulhu.jl) do type-level program analysis that can catch bugs and type-unstable code
 - People seem to be adopting [Aqua](https://github.com/JuliaTesting/Aqua.jl) for some other checks
 
