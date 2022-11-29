@@ -1,5 +1,5 @@
 +++
-title = "What should Julia users know?"
+title = "What should Julia users know about?"
 date = 2022-11-28
 description = "You'll be more likely to look something up when you can tell it should exist"
 +++
