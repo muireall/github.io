@@ -4,9 +4,9 @@ date = 2022-11-28
 description = "You'll be more likely to look something up when you can tell it should exist"
 +++
 
-[Julia](https://julialang.org) is a programming language designed to get high performance with code that's easy to read and write. It's really good! You should try it. If you already have, here's my list of broadly useful things to be aware of that you might miss just by diving in.
+[Julia](https://julialang.org) is a programming language designed to get high performance with code that's easy to read and write. It's really good! You should try it. If you already have, here's my list of broadly useful things to be aware of that you might miss by just diving in.
 
-I don't mean for this to be overwhelming. A good way to get into Julia is to start using it for a problem you're interested in, picking up as much as you need to get things done. But at some point you'll want to know what you don't know.
+I don't mean for this to be overwhelming. It's not homework or anything. A good way to get into Julia is to start using it for a problem you're interested in, picking up as much as you need to get things done. But at some point you'll want to know what you don't know.
 
 I've tried to organize things starting with the most important and basic information, both along the whole page and within each section. These are personal suggestions.{% aside() %} I'm an intermediate Julia user, having made some small contributions to the the ecosystem and having done a few years of development for private scientific projects. {% end %} If you have ideas about what should go here, let me know [on Twitter](https://twitter.com/MuireallPrase).
 
@@ -22,7 +22,7 @@ A good way to find packages in a given domain is to browse [the GitHub Organizat
 
 I recommend reading through [the manual](https://docs.julialang.org/en/v1/manual/getting-started/) to at least [Documentation](https://docs.julialang.org/en/v1/manual/documentation/) as a start. From the later sections I'll single out the [Performance Tips](https://docs.julialang.org/en/v1/manual/performance-tips/) and [Style Guide](https://docs.julialang.org/en/v1/manual/style-guide/). It's not necessarily obvious, but those last two are very useful for understanding the language.{% aside() %} As far as style, the [Blue](https://github.com/invenia/BlueStyle) guidelines have more detailed recommendations. {% end %}
 
-In the Julia REPL, you can type `?` to enter [help mode](https://docs.julialang.org/en/v1/stdlib/REPL/#Help-mode), where Julia will attempt to show documentation for anything you enter. Function documentation will often mention related functions, which is useful for discovery. The standard library has [InteractiveUtils.methodswith](https://docs.julialang.org/en/v1/stdlib/InteractiveUtils/#InteractiveUtils.methodswith), which can help you discover methods if you miss finding class methods in an object oriented language with tab completion.
+In the Julia REPL, you can type `?` to enter [help mode](https://docs.julialang.org/en/v1/stdlib/REPL/#Help-mode), where Julia will attempt to show documentation for anything you enter (and fuzzy match suggestions if it doesn't find anything). Function documentation will often mention related functions, which is useful for discovery. The standard library has [InteractiveUtils.methodswith](https://docs.julialang.org/en/v1/stdlib/InteractiveUtils/#InteractiveUtils.methodswith), which can help you discover methods if you miss finding class methods in an object oriented language with tab completion.
 
 I find it pays off to skim documentation even for basics like [numbers](https://docs.julialang.org/en/v1/base/numbers/), [strings](https://docs.julialang.org/en/v1/base/strings/), and [arrays](https://docs.julialang.org/en/v1/base/arrays/), at least to get an idea of the kind of affordances Julia provides. You'll be more likely to look something up when you can tell it should exist.
 
