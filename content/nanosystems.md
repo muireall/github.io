@@ -20,7 +20,7 @@ Scientists who encounter these ideas have some common intuitive objections:
 - There's not enough control of binding energies to precisely release proposed reagents onto a workpiece ("sticky fingers").
 - A broad range of chemistry conducted by a fixed set of components seems further implausible. (For example, even if many different molecules can bind to one site, they'll be unequally "sticky".)
 
-But these sorts of concerns don't get at the core of why APM might matter to Effective Altruists, longtermists, and people thinking about global catastrophic risks.{% note() %} For example, see [Nick Beckstead's "shallow investigation" for Open Philanthropy](https://www.openphilanthropy.org/research/atomically-precise-manufacturing/). {% end %} Of course these things are *hard*, but if you're speculating about the far-distant future or the capabilities of a superintelligence, mere difficulty may not dominate other considerations. To the extent there's a scientific question here, it's closer to one of in-principle feasibility than to a specific research program.
+But these sorts of concerns don't get at the core of why APM might matter to Effective Altruists, longtermists, and people thinking about global catastrophic risks.{% note() %} For example, see [Nick Beckstead's "shallow investigation" for Open Philanthropy](https://www.openphilanthropy.org/research/atomically-precise-manufacturing/). {% end %} Of course these things are *hard*, but if they're speculating about the far-distant future or the capabilities of a superintelligence, mere difficulty may not dominate other considerations. To the extent there's a scientific question they're interested in, it's closer to one of in-principle feasibility than to a specific research program.
 
 So the response from Drexler and others tends to be: yes, these objections all point to obstacles to be overcome. But a ribosome can already assemble long proteins. Of course abitrary methods aren't guaranteed to work, but that doesn't remotely rule out feasibility.
 
@@ -87,3 +87,5 @@ These are sort of like the original objections in that they don't really address
 #### Apology
 
 Above, I allude to calculations I've done, but I haven't written them down. It's bad form, but I've already given this subject more attention than I can honestly justify to myself. You can tweet at me about it.
+
+This is still more of a notebook entry than a rebuttal. I'm not sure it really accomplishes what I set out to do, but maybe it points well enough to how I might go about it.
