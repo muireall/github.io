@@ -184,7 +184,7 @@ He does acknowledge that his interpretation of the moving average put the spike 
 
 That's supposed to be exactly the question he's interested in answering, and as far as I can tell he's just assuming his preferred answer here. Lockdowns were lifted and temperatures passed a "warm" threshold for the first time that year around that time (exactly May 20 in the case of Minneapolis weather).
 
-He also marks the date of Floyd's death on his graphs too early. Eyeballing times series like this barely works for ordering things in time if you do it right. It tells you almost nothing about causation. Going through a list of possible other explanations and finding a piece of weak contrary evidence for each isn't enough to reach the confidence he claims. Maybe some kind of discontinuity analysis would be more convincing, but again, the only one we get a hint of is from Steve Sailer.
+He also marks the date of Floyd's death on his graphs too early. Eyeballing time series like this barely works for ordering things in time if you do it right. It tells you almost nothing about causation. Going through a list of possible other explanations and finding a piece of weak contrary evidence for each isn't enough to reach the confidence he claims. Maybe some kind of discontinuity analysis would be more convincing, but again, the only one we get a hint of is from Steve Sailer.
 
 ###### Hive Mind thesis
 In [Slightly Against Underpopulation Worries](https://web.archive.org/web/20220820021552/https://astralcodexten.substack.com/p/slightly-against-underpopulation), Alexander presents his perspective on "dysgenics":
