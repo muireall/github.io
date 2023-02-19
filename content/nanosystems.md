@@ -22,7 +22,7 @@ Scientists who encounter these ideas have some common intuitive objections:
 
 But these sorts of concerns don't get at the core of why APM might matter to Effective Altruists, longtermists, and people thinking about global catastrophic risks.{% note() %} For example, see [Nick Beckstead's "shallow investigation" for Open Philanthropy](https://www.openphilanthropy.org/research/atomically-precise-manufacturing/). {% end %} Of course these things are *hard*, but if they're speculating about the far-distant future or the capabilities of a superintelligence, mere difficulty may not dominate other considerations. To the extent there's a scientific question they're interested in, it's closer to one of in-principle feasibility than to a specific research program.
 
-So the response from Drexler and others tends to be: yes, these objections all point to obstacles to be overcome. But a ribosome can already assemble long proteins. Of course abitrary methods aren't guaranteed to work, but that doesn't remotely rule out feasibility.
+So the response from Drexler and others tends to be: yes, these objections all point to obstacles to be overcome. But a ribosome can already assemble long proteins. Of course arbitrary methods aren't guaranteed to work, but that doesn't remotely rule out feasibility.
 
 One sometimes even hears the claim that the particular mechanisms sketched by Drexler are proof of feasibility, providing a *lower* bound on capabilities. This claim, at least, is not defensible. Still, for most purposes, it can be substituted with the claim that his sketch is sufficiently suggestive of something in that ballpark being feasible. I'd like to at least convince you that it's not so suggestive, and maybe point to some tighter upper bounds.
 
