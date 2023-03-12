@@ -5,7 +5,7 @@
   <a id="note{{ nth }}"></a>
   <sup class="sidenote-widget">
     &#{{((nth - 1) % 26) + 97}};
-  </sup> {{ body }}
+  </sup> {{ body | markdown(inline=true) | safe }}
   <a href="#backnote{{ nth }}" class="sidenote-widget">
   ⏎
   </a>
