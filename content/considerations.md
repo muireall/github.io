@@ -8,7 +8,7 @@ This is a summary of my entry for the Open Philanthropy AI Worldviews Contest, w
 
 This essay attempts to bridge a gap between abstract models of AGI timelines and inside views from the semiconductor industry.
 
-Models like those in Cotra 2020 ("Bio Anchors"), Davidson 2021 ("Explosive Growth"), and Davidson 2023 ("Compute-Centric Framework") are grounded in computational and economic abstractions. This is entirely appropriate for medium-to-long-range forecasting, where extrapolating from trends at large is generally more reliable than reasoning about processes in detail.
+Models like those in [Cotra 2020 ("Bio Anchors")](https://drive.google.com/drive/u/0/folders/15ArhEPZSTYU8f012bs6ehPS6-xmhtBPP?pli=1), [Davidson 2021 ("Explosive Growth")](https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/), and [Davidson 2023 ("Compute-Centric Framework")](https://www.lesswrong.com/posts/Gc9FGtdXhK9sCSEYu/what-a-compute-centric-framework-says-about-ai-takeoff) are grounded in computational and economic abstractions. This is entirely appropriate for medium-to-long-range forecasting, where extrapolating from trends at large is generally more reliable than reasoning about processes in detail.
 
 Even so, I think their cursory accounts of some of their most important parameters are major weaknesses. 
 A complementary approach works outward from an inside view---not by immediately pursuing better parameter estimates, but by first trying to uncover as many relevant considerations as possible.
