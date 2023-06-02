@@ -34,3 +34,5 @@ Ideally, this kind of exercise would be done by a panel with overlapping areas o
 - Progress in industry at scale is not limited by "ideas" in the same way that basic research could imaginably be.
 
 [The full document is available here.](https://muireall.space/pdf/considerations.pdf)
+
+I've also made the code for reproducing some calculations in *Nanosystems* [available on GitHub](https://github.com/muireall/nanosystems/blob/main/T_trans.ipynb).

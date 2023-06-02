@@ -91,3 +91,5 @@ I should disclose that these sorts of considerations carry me well beyond what I
 Still, above, I allude to calculations I've done, but I haven't written them down. Elsewhere I'm only pointing to arguments or weak points. While it's bad form, I've already given this subject more attention than I can honestly justify to myself. You can tweet at me about it. For these reasons, I try to moderate my language to reflect what's on the page.
 
 This is still more of a notebook entry than a rebuttal. I'm not sure it really accomplishes what I set out to do, but maybe it points well enough to how I might go about it.
+
+**Update 2023-05-31:** I've written up some calculations and other arguments in more detail [here](https://muireall.space/considerations).
