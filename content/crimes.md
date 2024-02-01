@@ -114,7 +114,7 @@ We've already made a couple assumptions: that {% katex() %} k^2 = 1 - r^2 {% end
 ###### Technical note: How do you get to the Lorentzian?
 
 Resonance occurs when the denominator is minimized, at {% katex() %} \cos φ = 1
-{% end %} or {% katex() %} φ~=~2π\\,n{% end %} for integer {% katex() %} n {% end %}. We can expand in small {% katex() %} \delta φ{% end %} around that value:
+{% end %} or {% katex() %} φ~=~2π n{% end %} for integer {% katex() %} n {% end %}. We can expand in small {% katex() %} \delta φ{% end %} around that value:
 {% katex(block=true) %} \begin{align*}
 \left\lvert\frac{\alpha_\text{out}}{\alpha_\text{in}}\right\rvert^2 &\approx \frac{(r - a)^2 + ra\,\delta φ^2}{(1 - ra)^2 + ra\,\delta φ^2} \\
 &= 1 - \frac{(1 - r^2)(1 - a^2)}{(1 - ra)^2 + ra\,\delta φ^2}.
