@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="referrer" content="no-referrer">
+
+        <!-- Enable responsiveness on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>You care about selection bias because you care about causation | Ages and orbs</title>
+<meta property="og:title" content="You care about selection bias because you care about causation | Ages and orbs" />
+<meta name="twitter:title" content="You care about selection bias because you care about causation | Ages and orbs" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:description" content="" />
+<meta name="og:image" content="https:&#x2F;&#x2F;muireall.space&#x2F;selection&#x2F;card.png" />
+<meta name="twitter:image" content="https:&#x2F;&#x2F;muireall.space&#x2F;selection&#x2F;card.png" />
+
+        
+
+        <meta property="og:site_name" content="Ages and orbs" />
+        <meta property="og:url" content="https:&#x2F;&#x2F;muireall.space" />
+
+        
+
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="stylesheet" href="https://muireall.space/base.css" />
+<link rel="stylesheet" href="https://muireall.space/notes.css" />
+<link rel="stylesheet" href="https://muireall.space/math.css" />
+<link rel="stylesheet" href="https://muireall.space/tables.css" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/fontawesome.css" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/brands.css" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/solid.css" rel="stylesheet">
+
+        <link rel='icon' type='image/x-icon' href="https://muireall.space/favicon.ico" />
+
+        <link rel="alternate" type="application/atom+xml" title="Ages and orbs" href="https://muireall.space/atom.xml">
+
+        
+
+    </head>
+    <body>
+        <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
+        <header class="l-header">
+            <h1 class="c-title p-title"><a href="https:&#x2F;&#x2F;muireall.space" class="p-title__link">Ages and orbs</a></h1>
+            </header>
+
+        <main id="main" class="l-main">
+            
+<article class="p-article h-entry">
+    <header>
+        <h1 class="p-name">You care about selection bias because you care about causation
+</h1>
+        <div>
+            <div class="c-time">
+                <time class="dt-published" datetime="2023-01-02">
+                    2023-01-02
+                </time>
+                 — (8 min read)
+            </div>
+        </div>
+    </header>
+    
+    <section id="js-article" class="p-article__body e-content">
+        <p>When I see something criticized for selection bias, it’s almost always to caution against making inferences related to causation. In particular, the issue is almost never directly about the sample population being “unrepresentative” of a population you’re trying to make inferences about.</p>
+<p>Rather, it’s about how causation relates to what happens when you condition on a variable (for example, on being in the sample population). Both the magnitude and sign of statistical relationships in a sample population can be determined by the sampling process. This makes even “purely statistical” inference about correlations an absolute minefield under selection bias and more or less impossible without some model of what causes what.</p>
+<p>Meanwhile, the question being studied is almost never purely statistical, unconcerned with causation. If all you want to do is make observations and calculate likelihoods, you still have to worry about the causal graph for the reasons above, but at least it makes sense to “just ask questions”, as it were. But as soon as you decide to act on your information, or even to tell a story about it, you’re almost definitely getting involved with causation.</p>
+<p>I’m bringing this up in response to Scott Alexander’s recent post <a href="https://web.archive.org/web/20230101165439/https://astralcodexten.substack.com/p/selection-bias-is-a-fact-of-life">Selection Bias Is A Fact Of Life, Not An Excuse For Rejecting Internet Surveys</a>. The thrust of that post is that the damage from selection bias depends on what you’re trying to do. If you want first-order statistics, selection bias is “disastrous”, and if you want second-order statistics, selection bias is “fine-ish”. This is the reverse of how I understand statistics, so I’ll quote Alexander:</p>
+<blockquote>
+<p>Selection bias is disastrous if you’re trying to do something like a poll or census. That is, if you want to know “What percent of Americans own smartphones?” then any selection at all limits your result. … The same is potentially true about “how many people oppose abortion?” or “what percent of people are color blind?” or anything else trying to find out how common something is in the population. The only good ways to do this are a) use a giant government dataset that literally includes everyone, b) hire a polling company like Gallup which has tried really hard to get a panel that includes the exact right number of Hispanic people and elderly people and homeless people and every other demographic, c) do a lot of statistical adjustments and pray.</p>
+</blockquote>
+<p>This is exactly where it’s safest to make adjustments, specifically because you don’t have to worry about causation. As long as you can estimate how individual variables are biased, you can make an adjustment to, say, describe a population that has those variables in the correct proportions. It doesn’t matter <em>why</em> you ended up with an unrepresentative sample. The correction needs a model, but it doesn’t have to be causal.</p>
+<p>I’m not saying this isn’t still often doomed to fail. You might not know how your sample is unrepresentative, or you might have a bad quantitative estimate of the selection bias. But you’re on solid ground relative to when you’re trying to do the same thing with correlations.</p>
+<p>Alexander disagrees, I think:</p>
+<blockquote>
+<p>Selection bias is fine-ish if you’re trying to do something like test a correlation. Does eating bananas make people smarter because something something potassium? Get a bunch of Psych 101 undergrads, test their IQs, and ask them how many bananas they eat per day (obviously there are many other problems with this study, like establishing causation - let’s ignore those for now). If you find that people who eat more bananas have higher IQ, then fine, that’s a finding. If you’re right about the mechanism (something something potassium), then probably it should generalize to groups other than Psych 101 undergrads. It might not! But it’s okay to publish a paper saying “Study Finds Eating Bananas Raises IQ” with a little asterisk at the bottom saying “like every study ever done, we only tested this in a specific population rather than everyone in the world, and for all we know maybe it isn’t true in other populations, whatever.” If there’s some reason why Psych 101 undergrads are a particularly bad population to test this in, and any other population is better, then you should use a different population. Otherwise, choose your poison.</p>
+</blockquote>
+<blockquote>
+<p>Sometimes a correlation will genuinely fail to generalize out of sample. Suppose you find that, in a population of Psych 101 undergrads at a good college, family income is unrelated to obesity. This makes sense; they’re all probably pretty well-off, and they all probably eat at the same college cafeteria. But generalize to the entire US population, and poor people will be more obese, because they can’t afford healthy food / don’t have time to exercise / possible genetic correlations.</p>
+</blockquote>
+<p>This is an odd perspective to me. In particular:</p>
+<blockquote>
+<p>(obviously there are many other problems with this study, like establishing causation - let’s ignore those for now)</p>
+</blockquote>
+<p>What? That’s nearly the whole point! Worrying about selection bias <em>is for</em> worrying about causation.<sup class="sidenote-widget"><a href="#note1" id="backnote1">&#97;
+  </a>
+</sup>
+<span class="note" >
+  <a id="note1"></a>
+  <sup class="sidenote-widget">
+    &#97;
+  </sup> And if you don’t care about causation, why study the question? I don’t care if eating bananas is correlated with IQ, either in the sample or in the general population. When are you in a situation where that’s what you want to know? Am I planning to see someone eat a banana and adjust my estimate of how smart they are? I’d be studying the question to understand something about brain function and nutrition, or to decide whether to eat more bananas—knowing the mere correlation in a sample is almost entirely useless without a causal model, even if I don’t call it that.
+  <a href="#backnote1" class="sidenote-widget">
+  ⏎
+  </a>
+</span></p>
+<p>But not to fight the hypothetical, let’s continue:</p>
+<blockquote>
+<p>But it’s okay to publish a paper saying “Study Finds Eating Bananas Raises IQ” with a little asterisk at the bottom saying “like every study ever done, we only tested this in a specific population rather than everyone in the world, and for all we know maybe it isn’t true in other populations, whatever.” If there’s some reason why Psych 101 undergrads are a particularly bad population to test this in, and any other population is better, then you should use a different population.</p>
+</blockquote>
+<p>I just said I wouldn’t fight the hypothetical, but—it’s not okay! Please, absolutely don’t do this. “Raises” is a causal word, and that’s not what you found.<sup class="sidenote-widget"><a href="#note2" id="backnote2">&#98;
+  </a>
+</sup>
+<span class="note" >
+  <a id="note2"></a>
+  <sup class="sidenote-widget">
+    &#98;
+  </sup> I do appreciate using “Study Finds” rather than “Study Shows”, since it’s a step closer to a literal description of what happened here.
+  <a href="#backnote2" class="sidenote-widget">
+  ⏎
+  </a>
+</span></p>
+<p>That aside, I’m struggling to understand why trying to generalize about the correlation from this study is any less disastrous than trying to generalize about how many people eat bananas. In the picture Alexander seems to have, conditioning on selection affects correlations in a better-behaved way than it does simple proportions, despite inheriting first-order problems alongside its own unique ones.</p>
+<p>I think the disconnect is in what kind of inquiry we’re thinking about. If you see some survey numbers, but you don’t know anything about the relationship between the sample and the population, then you might be better off just throwing those numbers out. But if you see a correlation, and you don’t know anything about the sampling process… no, you want to throw those out even faster. Causal inference is, famously, hard. You’re not doing yourself a favor by thinking really hard about it so you can be a good Bayesian and emit a number. What’s going on here?</p>
+<p>Alexander concludes:</p>
+<blockquote>
+<p>Selection bias is fatal for polls, but only sometimes a problem for correlations. In real life, worrying about selection bias for correlations looks like thinking really hard about the mechanism, formulating hypotheses about how you expect something to generalize to particular out-of-sample populations, sometimes trying to test those hypotheses, but accepting that you can never test all of them and will have to take a lot of things on priors.</p>
+</blockquote>
+<p>If you like. But even that still sounds <em>way harder</em> to me than adjusting proportions. This is territory where following best-effort gun-to-your-head estimates can and often does take you in exactly the wrong direction. If you have a biased sample, you can often write down some bound on how wrong (and in what direction) your proportions are likely to be. This is not so much true of correlations.</p>
+<p>Is this a problem for every observational study, not just internet polls and reader surveys? I’ll admit I take a relatively hard line on this, but: yes, of course. Even so, they do often at least attempt to be quantitative in how they handle these problems.</p>
+
+    </section>
+    <address class="p-author h-card" href=" https:&#x2F;&#x2F;muireall.space ">Muireall </address>
+    <footer>
+        <nav class="c-pagination p-pagination">
+            <div class="c-pagination__ctrl">
+                <div class="c-pagination__newer">
+                    
+                </div>
+                <div class="c-pagination__older">
+                    
+                </div>
+            </div>
+        </nav>
+    </footer>
+</article>
+        </main>
+
+     
+      <footer class="l-footer">
+          <p class="p-copyright">
+    
+</p>
+    <p style="text-align:center"><a href="https://twitter.com/MuireallPrase" rel="me">Twitter</a>
+    ☙  <a href="mailto:muireall.prase@protonmail.com" rel="me">Email</a>  ❧ <a href="https://github.com/muireall" rel="me">GitHub</a></p>
+    <p style="text-align:center"> <a class="h-card u-url" rel="me" href=https://muireall.space">Muireall Prase</a> </p>
+      </footer>
+
+       
+      <link rel="stylesheet" href="https://muireall.space/css/katex.min.css">
+      <script defer src="https://muireall.space/js/katex.min.js"></script>
+      <script defer src="https://muireall.space/js/mathtex-script-type.min.js"></script>
+    </body>
+</html>
+            
