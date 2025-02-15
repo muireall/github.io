@@ -12,6 +12,8 @@ Alexander wrote that email eight years ago.{% note() %} He also tags one section
 
 I'll also say that my stance towards Alexander is rooted in some gestalt impressions from reading him over the years, some of which are hard to convey in an essay meant to be as charitable as possible and based on fully contextual close readings. I don't think those impressions are necessary to establish what I'm saying here. The considerations below are independently pivotal to me, but maybe I was already too far gone by the time I came to them to bridge our gap.
 
+2025-02-15 addendum: Since writing this, I've come across a few pieces that make similar points in different ways. Jonathan Korman tries to reconcile Alexander's apparently sincere liberalism with his carrying water for far-right ideas, [noting that either way, Alexander's selective credulity and intellectual sloppiness](https://miniver.blogspot.com/2024/01/scott-alexander-siskind-slate-star-codex.html) mean that Alexander "cannot be trusted as a source or a commentator". [This survey of Alexander's book reviews by titotal](https://titotal.substack.com/p/the-walled-marketplace-of-ideas-a) shares its theme that you can't trust the feelings of insight, rigor, and broad intellectual appetites you might get as a reader. More recently, David Thorstad's [series on human biodiversity](https://reflectivealtruism.com/2024/06/13/human-biodiversity-part-1-introduction/) has entries [on Alexander's blog Astral Codex Ten](https://reflectivealtruism.com/2024/10/31/human-biodiversity-part-4-astral-codex-ten/) and [on his community](https://reflectivealtruism.com/2024/12/27/human-biodiversity-part-5-the-people-of-alexander/). Finally, there's Alexander's own January 2025 piece ["How To Stop Worrying And Learn To Love Lynn's National IQ Estimates"](https://archive.ph/cyqyJ) (and [highlights from the comments](https://archive.ph/bGy7D)) which renders much of our writing obsolete by dropping the pretense of being able to think carefully about these things, even by his own standards.
+
 ### What does Alexander believe?
 
 Alexander's list of reasons for his posture toward neoreactionaries begins:
@@ -198,6 +200,14 @@ This sensitivity is the thesis of *Hive Mind* by Garett Jones, and the link is t
 Alexander avoids embracing the thesis in his review and doesn't touch questions of race or eugenics,{% note() %}although he does throw in a pair of links to early HBD blogger "La Griffe du Lion"{% end %} but the commenters (including, prominently, Steve Sailer) are predictably less shy.
 
 It's plausible that Alexander gained confidence in *Hive Mind* in the seven ensuing years but has not made the time to update his evaluation. It's also consistent with a strategy of spreading "the good parts of Reactionary thought" without staking his own credibility on it.
+
+###### Review of Richard Hanania's *The Origins of Woke*
+
+David Thorstad [explains](https://reflectivealtruism.com/2024/10/31/human-biodiversity-part-4-astral-codex-ten/#6-3-review-of-hanania) Hanania's stated subtextual strategy and the predictable consequences of Alexander's willingly playing along in his review of Hanania's surface-level arguments:
+
+> Alexander knows full well that Hanania cares little for academic discussion of civil rights law, and more for using civil rights law to generate discussion around reactionary ideas about race, sex, gender and related issues. **Alexander knows that reviewing the book in this way, on a blog with readers like his, will generate exactly the wrong type of discussion and lend publicity to far-right ideas.** But Alexander goes on and reviews the book anyways.
+
+(Much more at the link.)
 
 ### Postscript
 
