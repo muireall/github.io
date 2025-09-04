@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="referrer" content="no-referrer">
+
+        <!-- Enable responsiveness on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Some things I&#x27;m excited about, 2022 | Ages and orbs</title>
+<meta property="og:title" content="Some things I&#x27;m excited about, 2022 | Ages and orbs" />
+<meta name="twitter:title" content="Some things I&#x27;m excited about, 2022 | Ages and orbs" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:description" content="egg, Julia, space, search, squares" />
+<meta name="og:image" content="https:&#x2F;&#x2F;muireall.space&#x2F;exciting-2022&#x2F;card.png" />
+<meta name="twitter:image" content="https:&#x2F;&#x2F;muireall.space&#x2F;exciting-2022&#x2F;card.png" />
+
+        
+
+        <meta property="og:site_name" content="Ages and orbs" />
+        <meta property="og:url" content="https:&#x2F;&#x2F;muireall.space" />
+
+        
+
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="stylesheet" href="https://muireall.space/base.css" />
+<link rel="stylesheet" href="https://muireall.space/notes.css" />
+<link rel="stylesheet" href="https://muireall.space/math.css" />
+<link rel="stylesheet" href="https://muireall.space/tables.css" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/fontawesome.css" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/brands.css" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/solid.css" rel="stylesheet">
+
+        <link rel='icon' type='image/x-icon' href="https://muireall.space/favicon.ico" />
+
+        <link rel="alternate" type="application/atom+xml" title="Ages and orbs" href="https://muireall.space/atom.xml">
+
+        
+
+    </head>
+    <body>
+        <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
+        <header class="l-header">
+            <h1 class="c-title p-title"><a href="https:&#x2F;&#x2F;muireall.space" class="p-title__link">Ages and orbs</a></h1>
+            </header>
+
+        <main id="main" class="l-main">
+            
+<article class="p-article h-entry">
+    <header>
+        <h1 class="p-name">Some things I’m excited about, 2022
+</h1>
+        <div>
+            <div class="c-time">
+                <time class="dt-published" datetime="2022-01-22">
+                    2022-01-22
+                </time>
+                 — (4 min read)
+            </div>
+        </div>
+    </header>
+    
+    <section id="js-article" class="p-article__body e-content">
+        <p>I may continue to update this list, since these are just the first few things that came to mind. There’s nothing necessarily specific to 2022 here other than that I’m thinking about them now and there’ll be something to see in the relatively short term.</p>
+<span id="continue-reading"></span><h2 id="egg"><a href="https://egraphs-good.github.io/">egg</a><a class="zola-anchor" href="#egg" aria-label="Anchor link for: egg"><i class="fas fa-link"></i></a> 
+</h2>
+<p>The <code>egg</code> project is probably the most exciting thing I’ve seen in computing in the past year. It’s an extensible implementation of equality graphs (e-graphs, an efficient representation of equivalence classes of expressions) with fast equality saturation (building the full graph of equivalence classes by applying rewriting rules until a fixed point is reached), in Rust. The idea isn’t new—researchers have implemented compiler optimizations this way, generating a large set of equivalent programs and picking the best. But these implementations have been tied to automated theorem provers (which aren’t built for fast equality saturation) with ad-hoc extensions for analyzing those programs. In <code>egg</code> we have a single implementation specialized for equality-saturation workloads that can be cleanly extended with different analyses. The <a href="https://arxiv.org/abs/2004.03082">paper</a> introducing it is pretty readable. There are already some varied examples putting <code>egg</code> to use (for example, <a href="https://dl.acm.org/doi/pdf/10.1145/3485496">Ruler</a>), but I think we’ve barely begun to see what we can do with it.</p>
+<h2 id="julia-symbolics"><a href="https://symbolics.juliasymbolics.org/dev/">Julia Symbolics</a><a class="zola-anchor" href="#julia-symbolics" aria-label="Anchor link for: julia-symbolics"><i class="fas fa-link"></i></a> 
+</h2>
+<p>I’m closely watching the development of the Symbolics ecosystem. (One part of that happens to be the e-graph rewriting backend <a href="https://github.com/JuliaSymbolics/Metatheory.jl">Metatheory.jl</a> modeled after <code>egg</code>.) The home page calls it a Computer Algebra System, but right now developers seem more focused on symbolic-numeric computation. It’s in an odd situation where it has trouble simplifying arithmetic expressions with nested subtraction and division, but it can dramatically accelerate differential equation solvers. I think the potential here is underappreciated in scientific computing.</p>
+<p>A couple honorable mentions in Julia are the coming generations of <a href="https://github.com/aviatesk/JET.jl">static analysis</a> and <a href="https://github.com/JuliaDiff/Diffractor.jl">automatic differentiation</a>.</p>
+<h2 id="space">Space<a class="zola-anchor" href="#space" aria-label="Anchor link for: space"><i class="fas fa-link"></i></a> 
+</h2>
+<p>The <a href="https://www.jwst.nasa.gov/">James Webb Space Telescope</a> is fully deployed, which I think is understood to be a big deal.</p>
+<p>NASA’s <a href="https://psyche.asu.edu/">Psyche</a> mission is planned to launch this year, although it won’t reach its destination until 2026. I’m especially interested in the Deep Space Optical Communications demonstration instrument on board. Even with the <a href="https://indico.physics.lbl.gov/event/815/attachments/1750/2119/APH_110_2018.pdf">technology involved</a> I’m still astonished that it’s possible.</p>
+<h2 id="search">Search<a class="zola-anchor" href="#search" aria-label="Anchor link for: search"><i class="fas fa-link"></i></a> 
+</h2>
+<p>There’s a feeling in the air that it’s time for a new generation of search engines. I signed up for the <a href="https://kagi.com/">Kagi Search</a> private beta and within a day set it as my browser default. <a href="https://searx.github.io/searx/">Searx</a> had its 1.0 release last year. It seems to me that <a href="https://search.marginalia.nu/">search.marginalia.nu</a> has been received very warmly, and <a href="https://wiby.me/">Wiby</a> has gotten more attention. I look forward to learning whether there’s a future for niche, curated, or anti-commericial search; whether we’ll see a revival of early-web-search serendipity; and whether people will pay for a high-quality search engine.</p>
+<h2 id="books">Books<a class="zola-anchor" href="#books" aria-label="Anchor link for: books"><i class="fas fa-link"></i></a> 
+</h2>
+<p>Historian of science Cyrus Mody, author of <em>Instrumental Community</em> and <em>The Long Arm of Moore’s Law</em>, has another book coming out this year: <a href="https://mitpress.mit.edu/books/squares"><em>The Squares: US Physical and Engineering Scientists in the Long 1970s</em></a>. It’s still somewhat astounding for me what a force US military/defense research spending was in the postwar period,<sup class="sidenote-widget"><a href="#note1" id="backnote1">&#97;
+  </a>
+</sup>
+<span class="note" >
+  <a id="note1"></a>
+  <sup class="sidenote-widget">
+    &#97;
+  </sup> For example, see Paul Forman, <a href="https://sci-hub.st/https://www.jstor.org/stable/27757599">Behind Quantum Electronics: National Security as a Basis for Physical Research in the United States, 1940-1960</a>, <em>Historical Studies in the Physical and Biological Sciences</em> <strong>18</strong>, no. 1 (1987): 149-299. https://doi.org/10.2307/27757599
+  <a href="#backnote1" class="sidenote-widget">
+  ⏎
+  </a>
+</span> and I don’t have a good sense of how or to what extent a transition away from that happened. It sounds like that’s just one piece of the story of this book (“the ‘civilianization’ of the US semiconductor industry” sounds particularly interesting), and I look forward to reading the whole.</p>
+
+    </section>
+    <address class="p-author h-card" href=" https:&#x2F;&#x2F;muireall.space ">Muireall </address>
+    <footer>
+        <nav class="c-pagination p-pagination">
+            <div class="c-pagination__ctrl">
+                <div class="c-pagination__newer">
+                    
+                </div>
+                <div class="c-pagination__older">
+                    
+                </div>
+            </div>
+        </nav>
+    </footer>
+</article>
+        </main>
+
+     
+      <footer class="l-footer">
+          <p class="p-copyright">
+    
+</p>
+    <p style="text-align:center"><a href="https://twitter.com/MuireallPrase" rel="me">Twitter</a>
+    ☙  <a href="mailto:muireall.prase@protonmail.com" rel="me">Email</a>  ❧ <a href="https://github.com/muireall" rel="me">GitHub</a></p>
+    <p style="text-align:center"> <a class="h-card u-url" rel="me" href=https://muireall.space">Muireall Prase</a> </p>
+      </footer>
+
+       
+      <link rel="stylesheet" href="https://muireall.space/css/katex.min.css">
+      <script defer src="https://muireall.space/js/katex.min.js"></script>
+      <script defer src="https://muireall.space/js/mathtex-script-type.min.js"></script>
+    </body>
+</html>
+            
