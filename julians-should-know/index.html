@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="referrer" content="no-referrer">
+
+        <!-- Enable responsiveness on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>What should Julia users know about? | Ages and orbs</title>
+<meta property="og:title" content="What should Julia users know about? | Ages and orbs" />
+<meta name="twitter:title" content="What should Julia users know about? | Ages and orbs" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:description" content="You&#x27;ll be more likely to look something up when you can tell it should exist" />
+<meta name="og:image" content="https:&#x2F;&#x2F;muireall.space&#x2F;julians-should-know&#x2F;card.png" />
+<meta name="twitter:image" content="https:&#x2F;&#x2F;muireall.space&#x2F;julians-should-know&#x2F;card.png" />
+
+        
+
+        <meta property="og:site_name" content="Ages and orbs" />
+        <meta property="og:url" content="https:&#x2F;&#x2F;muireall.space" />
+
+        
+
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="stylesheet" href="https://muireall.space/base.css" />
+<link rel="stylesheet" href="https://muireall.space/notes.css" />
+<link rel="stylesheet" href="https://muireall.space/math.css" />
+<link rel="stylesheet" href="https://muireall.space/tables.css" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/fontawesome.css" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/brands.css" rel="stylesheet">
+<link href="https://muireall.space/fontawesome/solid.css" rel="stylesheet">
+
+        <link rel='icon' type='image/x-icon' href="https://muireall.space/favicon.ico" />
+
+        <link rel="alternate" type="application/atom+xml" title="Ages and orbs" href="https://muireall.space/atom.xml">
+
+        
+
+    </head>
+    <body>
+        <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
+        <header class="l-header">
+            <h1 class="c-title p-title"><a href="https:&#x2F;&#x2F;muireall.space" class="p-title__link">Ages and orbs</a></h1>
+            </header>
+
+        <main id="main" class="l-main">
+            
+<article class="p-article h-entry">
+    <header>
+        <h1 class="p-name">What should Julia users know about?
+</h1>
+        <div>
+            <div class="c-time">
+                <time class="dt-published" datetime="2022-11-28">
+                    2022-11-28
+                </time>
+                 — (12 min read)
+            </div>
+        </div>
+    </header>
+    
+    <section id="js-article" class="p-article__body e-content">
+        <p><a href="https://julialang.org">Julia</a> is a programming language designed to get high performance with code that’s easy to read and write. It’s really good! You should try it. If you already have, here’s my list of broadly useful things to be aware of that you might miss by just diving in.</p>
+<p>I don’t mean for this to be overwhelming. It’s not homework or anything. A good way to get into Julia is to start using it for a problem you’re interested in, picking up as much as you need to get things done. But at some point you’ll want to know what you don’t know.</p>
+<p>I’ve tried to organize things starting with the most important and basic information, both along the whole page and within each section. These are personal suggestions.<span class="sidenote-widget"><a href="#aside1" id="backside1">⁺
+</a>
+</span>
+<span class="note">
+<a id="aside1"></a>
+<span class="sidenote-widget">
+⁺
+</span> I’m an intermediate Julia user, having made some small contributions to the the ecosystem and having done a few years of development for private scientific projects.
+<a href="#backside1" class="sidenote-widget">
+⏎
+</a>
+</span> If you have ideas about what should go here, let me know <a href="https://twitter.com/MuireallPrase">on Twitter</a>.</p>
+<h3 id="community">Community<a class="zola-anchor" href="#community" aria-label="Anchor link for: community"><i class="fas fa-link"></i></a> 
+</h3>
+<p>The <a href="discourse.julialang.org/">Discourse board</a> is the best place for questions and general discussion.<span class="sidenote-widget"><a href="#aside2" id="backside2">⁺
+</a>
+</span>
+<span class="note">
+<a id="aside2"></a>
+<span class="sidenote-widget">
+⁺
+</span> In particular, it’s more active than StackExchange.
+<a href="#backside2" class="sidenote-widget">
+⏎
+</a>
+</span> There’s also a <a href="https://julialang.org/slack/">Slack</a>, the <a href="https://forem.julialang.org/">Forem</a> (a sort of community blog), and a <a href="https://twitter.com/search?q=%23julialang&amp;src=typed_query&amp;f=user">whole bunch of people</a> worth following on Twitter.</p>
+<p><a href="https://julialang.org/contribute/">Contributing to the Julia ecosystem</a> is a great way to get a handle on the tacit or idiomatic stuff you don’t get out of documentation or blog posts.</p>
+<p>A good way to find packages in a given domain is to browse <a href="https://julialang.org/community/organizations/">the GitHub Organizations that the community groups related packages into</a>. There are thousands of <a href="https://github.com/JuliaRegistries/General">registered packages</a> in the ecosystem, and if you search or ask around on Discourse and Slack you might find what you’re looking for—or at least inspiration.</p>
+<h3 id="the-language">The language<a class="zola-anchor" href="#the-language" aria-label="Anchor link for: the-language"><i class="fas fa-link"></i></a> 
+</h3>
+<p>I recommend reading through <a href="https://docs.julialang.org/en/v1/manual/getting-started/">the manual</a> to at least <a href="https://docs.julialang.org/en/v1/manual/documentation/">Documentation</a> as a start. From the later sections I’ll single out the <a href="https://docs.julialang.org/en/v1/manual/performance-tips/">Performance Tips</a> and <a href="https://docs.julialang.org/en/v1/manual/style-guide/">Style Guide</a>. It’s not necessarily obvious, but those last two are very useful for understanding the language.<span class="sidenote-widget"><a href="#aside3" id="backside3">⁺
+</a>
+</span>
+<span class="note">
+<a id="aside3"></a>
+<span class="sidenote-widget">
+⁺
+</span> As far as style, the <a href="https://github.com/invenia/BlueStyle">Blue</a> guidelines have more detailed recommendations.
+<a href="#backside3" class="sidenote-widget">
+⏎
+</a>
+</span></p>
+<p>In the Julia REPL, you can type <code>?</code> to enter <a href="https://docs.julialang.org/en/v1/stdlib/REPL/#Help-mode">help mode</a>, where Julia will attempt to show documentation for anything you enter (and fuzzy match suggestions if it doesn’t find anything). Function documentation will often mention related functions, which is useful for discovery. The standard library has <a href="https://docs.julialang.org/en/v1/stdlib/InteractiveUtils/#InteractiveUtils.methodswith">InteractiveUtils.methodswith</a>, which can help you discover methods if you miss finding class methods in an object oriented language with tab completion.</p>
+<p>I find it pays off to skim documentation even for basics like <a href="https://docs.julialang.org/en/v1/base/numbers/">numbers</a>, <a href="https://docs.julialang.org/en/v1/base/strings/">strings</a>, and <a href="https://docs.julialang.org/en/v1/base/arrays/">arrays</a>, at least to get an idea of the kind of affordances Julia provides. You’ll be more likely to look something up when you can tell it should exist.</p>
+<p>For example, I’ll call out the <a href="https://docs.julialang.org/en/v1/base/collections/">collections and data structures</a> and <a href="https://docs.julialang.org/en/v1/base/iterators/">iteration utilities</a>, some of which I wouldn’t have guessed were built into the language but which are very useful.</p>
+<p>Similarly, there are <a href="https://docs.julialang.org/en/v1/base/math/">mathematical operators</a> in base Julia it’s worth knowing exist: <code>mod2pi</code> and <code>rem2pi</code> and the functions <code>sincos</code>, <code>cis</code>, <code>sinpi</code>, <code>sind</code>, and so on for trigonometry saving some effort and numerical exactness; similarly, <code>expm1</code> and  <code>log1p</code>; <code>hypot</code> and <code>LinearAlgebra.norm</code> for vector norm calculations avoiding overflow and underflow; various other utilities like <code>clamp</code> and  <code>mod1</code>.</p>
+<p>The manual’s <a href="https://docs.julialang.org/en/v1/manual/noteworthy-differences/">noteworthy differences from other languages</a> mentions a wide assortment of features and conventions even if you’re not coming from MATLAB, R, Python, C/C++, or Common Lisp.</p>
+<p>Stefan Karpinski’s 2019 talk <a href="https://www.youtube.com/watch?v=kc9HwsxE1OY">The Unreasonable Effectiveness of Multiple Dispatch</a> is great if you want to understand why some people like Julia so much, along with some of the choices Julia makes as a language.<sup class="sidenote-widget"><a href="#note1" id="backnote1">&#97;
+  </a>
+</sup>
+<span class="note" >
+  <a id="note1"></a>
+  <sup class="sidenote-widget">
+    &#97;
+  </sup> I don’t know if it belongs in the canon, but my favorite JuliaCon talk may be <a href="https://www.youtube.com/watch?v=C2RO34b_oPM">Taking Vector Transposes Seriously</a> from Jiahao Chen in 2017. It’s about Julia pre-1.0, so be careful—for example, these days the single quote gives you the adjoint, not the transpose.
+  <a href="#backnote1" class="sidenote-widget">
+  ⏎
+  </a>
+</span></p>
+<h3 id="workflow">Workflow<a class="zola-anchor" href="#workflow" aria-label="Anchor link for: workflow"><i class="fas fa-link"></i></a> 
+</h3>
+<p>For workflow basics, start with <a href="https://docs.julialang.org/en/v1/stdlib/REPL/#The-Julia-REPL">the Julia REPL</a>, <a href="https://docs.julialang.org/en/v1/manual/workflow-tips/">Workflow Tips</a>, and the package manager <a href="https://pkgdocs.julialang.org/dev/">documentation</a> up through <a href="https://pkgdocs.julialang.org/dev/environments/">working with environments</a>. If you’re developing a package, <a href="https://timholy.github.io/Revise.jl/stable/">Revise.jl</a> is basically mandatory to avoid constantly restarting Julia.<span class="sidenote-widget"><a href="#aside4" id="backside4">⁺
+</a>
+</span>
+<span class="note">
+<a id="aside4"></a>
+<span class="sidenote-widget">
+⁺
+</span> Even if you’re just loading code from a file using <code>include</code>, Revise gives you the <code>includet</code> method for “include and track”, so if you edit the file the changes are automatically loaded in your Julia session. I think some people miss this feature because it’s not the headline use case for Revise, but it’s nice.
+<a href="#backside4" class="sidenote-widget">
+⏎
+</a>
+</span></p>
+<p>VS Code with <a href="https://www.julia-vscode.org/docs/dev/">the Julia extension</a> is the recommended editor. Some of what you’ll find in <a href="https://www.julia-vscode.org/docs/dev/">the user guide for Julia in VS Code</a> you’d expect from any IDE—formatting, linting, running code—and some of it is Julia-specific, like using <a href="https://www.julia-vscode.org/docs/dev/userguide/compilesysimage/">sysimages</a> to start sessions faster (via <a href="https://julialang.github.io/PackageCompiler.jl/stable/sysimages.html">PackageCompiler</a>).</p>
+<ul>
+<li><a href="https://github.com/fonsp/Pluto.jl">Pluto</a> gives you a notebook like Jupyter, but without hidden state from out-of-order execution and with a source file that’s valid Julia</li>
+<li><a href="https://github.com/JuliaPlots/UnicodePlots.jl">UnicodePlots</a> is a surprisingly richly featured backend for Julia’s main plotting interface <a href="https://github.com/JuliaPlots/Plots.jl">Plots.jl</a> that works in a terminal</li>
+<li><a href="https://github.com/ronisbr/PrettyTables.jl">PrettyTables</a> prints tabular data in a terminal in a very readable way</li>
+<li><a href="https://kristofferc.github.io/OhMyREPL.jl/latest/">OhMyREPL</a> adds some features to the Julia REPL like customizable syntax highlighting and rainbow parethesis matching</li>
+<li><a href="https://julialang.github.io/PackageCompiler.jl/stable/">PackageCompiler</a>, mentioned above, can be used with or without the VS Code extension</li>
+<li><a href="https://github.com/JuliaCI/PkgTemplates.jl">PkgTemplates</a> is the canonical tool for creating new packages—which isn’t hard to do by hand, but PkgTemplates is friendlier and can be customized to set up a repository configured for CI, code coverage, documentation, and so on</li>
+<li><a href="https://github.com/domluna/JuliaFormatter.jl">JuliaFormatter</a> is a customizable code formatter that also integrates well with the VS Code extension</li>
+</ul>
+<h3 id="the-parameters-pattern">The Parameters pattern<a class="zola-anchor" href="#the-parameters-pattern" aria-label="Anchor link for: the-parameters-pattern"><i class="fas fa-link"></i></a> 
+</h3>
+<p>I work with modeling problems involving many instances of components each with many parameters. It’s hard to manage this situation elegantly together with requirements like default parameters, keyword constructors, efficient access to and mutation of parameters, lightweight representations that can be used directly in optimizers and differential equations, and so on. It’s enough of a frustration in other languages that it gets its own heading here.</p>
+<ul>
+<li>One option is to use <code>NamedTuple</code>s to hold parameters. You might like <a href="https://github.com/JeffreySarnoff/NamedTupleTools.jl">NamedTupleTools</a> which makes some things more straightforward. Also, don’t miss that <a href="https://docs.julialang.org/en/v1/manual/functions/#Property-destructuring">property destructuring</a> syntax was added in 1.8.</li>
+<li>The next step up is probably to define <code>struct</code>s using <a href="https://github.com/JuliaLang/julia/blob/5495b8d67a66720559cfd8c13ebb315a80e4e579/base/util.jl#L492"><code>Base.@kwdef</code> </a> to automatically get keyword constructors with default fields (<a href="https://github.com/mauro3/Parameters.jl">Parameters.jl</a> also does this, but it’s not necessary now that <code>@kwdef</code> is all grown up<span class="sidenote-widget"><a href="#aside5" id="backside5">⁺
+</a>
+</span>
+<span class="note">
+<a id="aside5"></a>
+<span class="sidenote-widget">
+⁺
+</span> it’s been around for a while, but for obscure reasons <code>@kwdef</code> will only be exported and part of the public API as of Julia 1.9
+<a href="#backside5" class="sidenote-widget">
+⏎
+</a>
+</span> )</li>
+<li><a href="https://github.com/JuliaObjects/Accessors.jl">Accessors</a> (successor to <a href="https://github.com/jw3126/Setfield.jl">Setfield</a>) gives you a simple way to update immutable data structures</li>
+<li><a href="https://juliaarrays.github.io/StructArrays.jl/stable/">StructArrays</a> defines an array type that acts like an array of <code>struct</code> elements but is stored internally as a list of arrays (potentially allowing, for example, effective use of SIMD without sacrificing ergonomics; see <a href="https://en.wikipedia.org/wiki/AoS_and_SoA">AoS and SoA</a>)</li>
+<li><a href="https://github.com/jonniedie/ComponentArrays.jl">ComponentArrays</a> is a really nice implementation of array types that act like a mutable <code>NamedTuple</code> or <code>struct</code>, but which compose with DifferentialEquations.jl, Optim.jl, or really anything that expects arrays</li>
+<li>If you find yourself reaching for this design pattern, <a href="https://mtk.sciml.ai/stable/">ModelingToolkit.jl</a> might interest you</li>
+</ul>
+<h3 id="other-packages">Other packages<a class="zola-anchor" href="#other-packages" aria-label="Anchor link for: other-packages"><i class="fas fa-link"></i></a> 
+</h3>
+<p>Some of the above are taken from the October 2022 thread <a href="https://discourse.julialang.org/t/packages-all-julians-should-know-about/88099">“Packages all Julians should know about”</a> on the Julia Discourse board. Here are some more:</p>
+<ul>
+<li><a href="https://documenter.juliadocs.org/stable/">Documenter</a> is what people use to make documentation, and it has some good features like doctests and cross references worth getting familiar with</li>
+<li><a href="https://fredrikekre.github.io/Literate.jl/v2/">Literate.jl</a> is a package for <a href="https://en.wikipedia.org/wiki/Literate_programming">Literate Programming</a> that lets you generate markdown for Documenter or a Jupyter notebook from the same source file</li>
+<li><a href="https://github.com/JuliaPlots/Plots.jl">Plots.jl</a> with your backend of choice is fine, but I’d recommend looking at <a href="https://docs.makie.org/stable/">Makie</a>, especially for interactivity<sup class="sidenote-widget"><a href="#note2" id="backnote2">&#98;
+  </a>
+</sup>
+<span class="note" >
+  <a id="note2"></a>
+  <sup class="sidenote-widget">
+    &#98;
+  </sup> although Plots.jl does have <a href="http://juliaplots.org/PlotlyJS.jl/stable/">the PlotlyJS backend</a>
+  <a href="#backnote2" class="sidenote-widget">
+  ⏎
+  </a>
+</span> and performance (with an OpenGL backend)—<a href="https://beautiful.makie.org/dev/">Beautiful Makie</a> has good examples</li>
+<li><a href="https://github.com/JuliaCollections/DataStructures.jl">DataStructures.jl</a> implements standard data structures</li>
+<li><a href="https://github.com/JuliaData/DataFrames.jl">DataFrames.jl</a> implements pandas-like DataFrames—don’t miss the <a href="https://github.com/bkamins/Julia-DataFrames-Tutorial">tutorial by Bogumił Kamiński</a> </li>
+<li><a href="https://github.com/JuliaCollections/Memoize.jl">Memoize.jl</a> gives you easy memoization (there’s also <a href="https://github.com/marius311/Memoization.jl">Memoization.jl</a>, which at this point may be more general than Memoize)</li>
+<li><a href="https://github.com/FluxML/MacroTools.jl">MacroTools.jl</a> is handy if you’re writing macros</li>
+<li><a href="https://juliafolds.github.io/Transducers.jl/dev">Transducers.jl</a> gives you transducers, which you might know <a href="https://clojure.org/reference/transducers">from Clojure</a><sup class="sidenote-widget"><a href="#note3" id="backnote3">&#99;
+  </a>
+</sup>
+<span class="note" >
+  <a id="note3"></a>
+  <sup class="sidenote-widget">
+    &#99;
+  </sup> <a href="https://clojure.org/guides/faq#transducers_vs_seqs">this description of good use cases for transducers</a> is good to have in the back of your head
+  <a href="#backnote3" class="sidenote-widget">
+  ⏎
+  </a>
+</span></li>
+<li>The packages under the <a href="https://github.com/JuliaMath">JuliaMath</a> GitHub Organization include special functions, intervals, interpolations, root finding, and numerical integration, among others</li>
+<li><a href="https://juliadiff.org/">JuliaDiff</a> has various automatic differentiation packages under its umbrella</li>
+</ul>
+<p>Of course there are also more domain-specific organizations and libraries that might as well be standard, like <a href="https://github.com/JuliaGraphs/">JuliaGraphs</a>/<a href="https://github.com/JuliaGraphs/Graphs.jl">Graphs.jl</a> for graph things or <a href="https://github.com/JuliaDSP">JuliaDSP</a>/<a href="https://docs.juliadsp.org/stable/contents/">DSP.jl</a><span class="sidenote-widget"><a href="#aside6" id="backside6">⁺
+</a>
+</span>
+<span class="note">
+<a id="aside6"></a>
+<span class="sidenote-widget">
+⁺
+</span> that’s where the phase unwrapping utility is, by the way
+<a href="#backside6" class="sidenote-widget">
+⏎
+</a>
+</span> for digital signal processing; canonical libraries that have their particular ways of doing things but are nonetheless very generic, like <a href="https://fluxml.ai/Flux.jl/stable/">Flux</a> for machine learning; even things outside Julia’s advertised wheelhouse like <a href="https://github.com/tlienart/Franklin.jl">Franklin</a> for static site generation and the web framework <a href="https://github.com/GenieFramework/Genie.jl">Genie</a>.</p>
+<h3 id="performance-correctness-analysis">Performance, correctness, analysis<a class="zola-anchor" href="#performance-correctness-analysis" aria-label="Anchor link for: performance-correctness-analysis"><i class="fas fa-link"></i></a> 
+</h3>
+<p>Start with <a href="https://docs.julialang.org/en/v1/stdlib/Test/">Unit Testing</a> and the <a href="https://docs.julialang.org/en/v1/manual/performance-tips/">Performance Tips</a> in the Julia manual, as well as the section on <a href="https://docs.julialang.org/en/v1/manual/profile/">Profiling</a>. There’s also <a href="https://docs.julialang.org/en/v1/stdlib/Logging/">Logging</a> in the standard library.</p>
+<ul>
+<li>TestItems/<a href="https://github.com/julia-vscode/TestItemRunner.jl">TestItemRunner</a> are works in progress but very promising for improving testing workflows</li>
+<li><a href="https://juliaci.github.io/BenchmarkTools.jl/stable/">BenchmarkTools</a> gives you better ways to benchmark than using <code>@time</code> to time commands</li>
+<li><a href="https://github.com/timholy/ProfileView.jl">ProfileView</a> is a visualizer for the results of profiling (one of several; the VS Code extension also has its own)</li>
+<li><a href="https://github.com/JuliaDebug/Infiltrator.jl">Infiltrator</a> gives you a macro that acts as a breakpoint</li>
+<li><a href="https://github.com/JuliaArrays/StaticArrays.jl">StaticArrays</a>; <a href="https://discourse.julialang.org/t/packages-all-julians-should-know-about/88099/16">torrance</a> on the Discourse thread explains it well:
+<blockquote>
+<p>This package allows for small, statically sized arrays. Because their size is known at compile time all sorts of optimisations and efficiencies kick in. Linear algebra operations, for example, are customised at compile time for the specific size of your matrix or array. For me, however, the biggest win is that static arrays are isbits, meaning these will be allocated on the stack not the heap, so these are ideal for cases where you’re working with small arrays of a known size in hot loops.</p>
+</blockquote>
+</li>
+<li><a href="https://github.com/mcabbott/Tullio.jl">Tullio</a> is a neat way to write tensor operations that will take advantage of multithreading, SIMD (with <a href="https://github.com/JuliaSIMD/LoopVectorization.jl">LoopVectorization</a>), and other tricks to go fast</li>
+<li><a href="https://aviatesk.github.io/JET.jl/stable/">JET</a> and <a href="https://github.com/JuliaDebug/Cthulhu.jl">Cthulhu</a> do type-level program analysis that can catch bugs and type-unstable code</li>
+<li>People seem to be adopting <a href="https://github.com/JuliaTesting/Aqua.jl">Aqua</a> for some other checks</li>
+</ul>
+<h3 id="cool-stuff">Cool stuff<a class="zola-anchor" href="#cool-stuff" aria-label="Anchor link for: cool-stuff"><i class="fas fa-link"></i></a> 
+</h3>
+<p><a href="https://jump.dev/">JuMP</a> and its supporting packages for mathematical optimization as well as <a href="https://diffeq.sciml.ai/stable/">DifferentialEquations.jl</a> are probably the best in their respective classes in any language.</p>
+<ul>
+<li><a href="https://github.com/JuliaLabs/Cassette.jl">Cassette</a> lets you do custom compiler passes, which enables all sorts of cool things</li>
+<li>I mentioned I was excited about <a href="https://symbolics.juliasymbolics.org/stable/">Symbolics.jl</a>/<a href="https://symbolicutils.juliasymbolics.org/">SymbolicUtils</a> back <a href="https://muireall.space/exciting-2022/">in January</a>. They’ve made a lot of progress but still suffer from the limitations I mentioned then:
+<blockquote>
+<p>The home page calls it a Computer Algebra System, but right now developers seem more focused on symbolic-numeric computation. It’s in an odd situation where it has trouble simplifying arithmetic expressions with nested subtraction and division, but it can dramatically accelerate differential equation solvers. I think the potential here is underappreciated in scientific computing.</p>
+</blockquote>
+</li>
+<li><a href="https://github.com/JuliaSymbolics/Metatheory.jl">Metatheory.jl</a>, the e-graph rewriting backend for Symbolics</li>
+<li><a href="https://github.com/JuliaDiff/Diffractor.jl">Diffractor.jl</a> for autodiff</li>
+</ul>
+<p>Again, <a href="https://twitter.com/MuireallPrase">I’m on Twitter</a> if you have more tips.</p>
+
+    </section>
+    <address class="p-author h-card" href=" https:&#x2F;&#x2F;muireall.space ">Muireall </address>
+    <footer>
+        <nav class="c-pagination p-pagination">
+            <div class="c-pagination__ctrl">
+                <div class="c-pagination__newer">
+                    
+                </div>
+                <div class="c-pagination__older">
+                    
+                </div>
+            </div>
+        </nav>
+    </footer>
+</article>
+        </main>
+
+     
+      <footer class="l-footer">
+          <p class="p-copyright">
+    
+</p>
+    <p style="text-align:center"><a href="https://twitter.com/MuireallPrase" rel="me">Twitter</a>
+    ☙  <a href="mailto:muireall.prase@protonmail.com" rel="me">Email</a>  ❧ <a href="https://github.com/muireall" rel="me">GitHub</a></p>
+    <p style="text-align:center"> <a class="h-card u-url" rel="me" href=https://muireall.space">Muireall Prase</a> </p>
+      </footer>
+
+       
+      <link rel="stylesheet" href="https://muireall.space/css/katex.min.css">
+      <script defer src="https://muireall.space/js/katex.min.js"></script>
+      <script defer src="https://muireall.space/js/mathtex-script-type.min.js"></script>
+    </body>
+</html>
+            
